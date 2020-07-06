@@ -1,5 +1,3 @@
-# takumma
-
 Vue.js(Nuxt.js)とFlutterの勉強をしています。
 
 ## PROFILE
