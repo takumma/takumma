@@ -14,10 +14,9 @@ Vue.js(Nuxt.js)とFlutterの勉強をしています。
 **Lang**：kotlin <br>
 **GitHub**：https://github.com/shoma3571/tavinow <br> 
 ### ますくをつけて
-コロナによる休校期間中につくったブラウザゲーム。マスクをつけて遊べる。楽しい。 with keibo and shoma. <br>
+コロナによる休校期間中につくったブラウザゲーム。マスクをつけて遊ぶ。 with keibo and shoma. <br>
 **FrameWork**：Vue.js <br>
 **GitHub**：https://github.com/takumma/mask-game <br>
-**Website**：https://mask-game.tk/ <br>
 ### その他
 - Portfolio：このサイト
 
