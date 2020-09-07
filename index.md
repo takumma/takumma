@@ -12,7 +12,7 @@ Vue.js(Nuxt.js)とFlutterに興味があります。
 パソコン甲子園2019本戦出場作品。<br>
 旅行計画に沿った天気予報が見られるAndroidアプリ。機械学習により、訪れる場所がその天気に適しているかを表すおすすめ度をみることができる。with shoma and mikito. <br>
 **Lang**：kotlin <br>
-**GitHub**：https://github.com/shoma3571/tavinow <br> 
+**GitHub**：https://github.com/takumma/tabinow <br> 
 ### mask-game
 コロナによる休校期間中につくったブラウザゲーム。マスクをつけて遊ぶ。 with keibo and shoma. <br>
 **FrameWork**：Vue.js <br>
