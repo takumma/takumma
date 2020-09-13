@@ -21,7 +21,7 @@ export default {
   data() {
     return {
       userName: 'takumma',
-      AppBarMainColor: 'hojicha_latte',
+      AppBarMainColor: 'hojichaLatte',
       AppBarContentsColor: 'white'
     }
   }

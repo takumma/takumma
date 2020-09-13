@@ -8,9 +8,9 @@ export default new Vuetify({
   theme: {
     themes: {
       light: {
-        hojicha_latte: '#C4A169',
+        hojichaLatte: '#C4A169',
         chocorate: '#524900',
-        soft_black: '#242323',
+        softBlack: '#242323',
 
         accent: colors.cyan.accent1,
       }
