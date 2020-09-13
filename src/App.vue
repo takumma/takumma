@@ -1,15 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar app color="hojicha_latte" class="white--text">
-      
-      <v-toolbar-title>takumma</v-toolbar-title>
-
-      <v-spacer/>
-      
-      <v-app-bar-nav-icon color="white"/>
-
-    </v-app-bar>
-    
+    <tool-bar/>
     <v-main>
       <router-view/>
     </v-main>
@@ -17,13 +8,11 @@
 </template>
 
 <script>
+import ToolBar from './components/ToolBar.vue'
 
 export default {
   components: {
+    ToolBar,
   },
-
-  data() {
-    
-  }
 };
 </script>
