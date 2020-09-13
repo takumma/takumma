@@ -7,8 +7,9 @@
       <v-divider/>
       
       <v-app-bar-nav-icon color="white"/>
-      
+
     </v-app-bar>
+    
     <v-main>
       <router-view/>
     </v-main>
