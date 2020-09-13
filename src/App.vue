@@ -1,10 +1,10 @@
 <template>
   <v-app>
-    <v-app-bar app color="primary" class="white--text">
+    <v-app-bar app color="hojicha_latte" class="white--text">
       
       <v-toolbar-title>takumma</v-toolbar-title>
 
-      <v-divider/>
+      <v-spacer/>
       
       <v-app-bar-nav-icon color="white"/>
 
