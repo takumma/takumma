@@ -8,9 +8,11 @@ export default new Vuetify({
   theme: {
     themes: {
       light: {
-        primary: colors.lime.darken4,
-        secondary: '#524900',
-        accent: colors.white,
+        hojicha_latte: '#C4A169',
+        chocorate: '#524900',
+        soft_black: '#242323',
+
+        accent: colors.cyan.accent1,
       }
     }
   }
