@@ -1,11 +1,11 @@
 <template>
-  <v-app-bar app color="hojicha_latte" class="white--text">
+  <v-app-bar app :color="mainColor">
     
-    <v-toolbar-title>{{ name }}</v-toolbar-title>
+    <v-toolbar-title :class="contentsColor+'--text'">{{ userName }}</v-toolbar-title>
 
     <v-spacer/>
     
-    <v-app-bar-nav-icon color="white"/>
+    <v-app-bar-nav-icon :color="contentsColor"/>
 
   </v-app-bar>
 </template>
@@ -16,7 +16,11 @@ export default {
   components: {
     
   },
-
+  props: {
+    userName: String,
+    mainColor: String,
+    contentsColor: String,
+  },
   data() {
     return {
       name: 'takumma'

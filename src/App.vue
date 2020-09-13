@@ -1,6 +1,10 @@
 <template>
   <v-app>
-    <tool-bar/>
+    <tool-bar
+      :userName="userName"
+      :mainColor="AppBarMainColor"
+      :contentsColor="AppBarContentsColor"
+    />
     <v-main>
       <router-view/>
     </v-main>
@@ -14,5 +18,12 @@ export default {
   components: {
     ToolBar,
   },
+  data() {
+    return {
+      userName: 'takumma',
+      AppBarMainColor: 'hojicha_latte',
+      AppBarContentsColor: 'white'
+    }
+  }
 };
 </script>
