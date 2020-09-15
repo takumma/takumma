@@ -21,9 +21,9 @@ export default Vue.extend({
   },
   data() {
     return {
-      userName: String = 'takumma',
-      AppBarMainColor: String =  'hojichaLatte',
-      AppBarContentsColor: String = 'white'
+      userName: 'takumma',
+      AppBarMainColor: 'hojichaLatte',
+      AppBarContentsColor: 'white'
     }
   }
 });
