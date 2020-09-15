@@ -5,9 +5,10 @@
 	</v-card>
 </template>
 
-<script>
+<script lang='ts'>
+import Vue from 'vue';
 
-export default {
+export default Vue.extend({
 	components: {
 	},
 	props: {
@@ -18,5 +19,5 @@ export default {
 		return {
 		}
 	}
-};
+});
 </script>
