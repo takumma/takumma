@@ -11,10 +11,11 @@
   </v-app>
 </template>
 
-<script>
+<script lang='ts'>
+import Vue from 'vue';
 import ToolBar from './components/ToolBar.vue'
 
-export default {
+export default Vue.extend({
   components: {
     ToolBar,
   },
@@ -25,5 +26,5 @@ export default {
       AppBarContentsColor: 'white'
     }
   }
-};
+});
 </script>

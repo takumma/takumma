@@ -4,13 +4,14 @@
   </div>
 </template>
 
-<script>
+<script lang='ts'>
+import Vue from 'vue';
 import SkillCard from '../components/SkillCard.vue';
 
-export default {
+export default Vue.extend({
   name: 'Home',
   components: {
     SkillCard,
   }
-}
+})
 </script>
