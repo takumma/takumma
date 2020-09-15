@@ -11,7 +11,7 @@
   </v-app>
 </template>
 
-<script>
+<script lang='ts'>
 import Vue from 'vue';
 import ToolBar from './components/ToolBar.vue'
 
