@@ -12,18 +12,19 @@
 </template>
 
 <script>
+import Vue from 'vue';
 import ToolBar from './components/ToolBar.vue'
 
-export default {
+export default Vue.extend({
   components: {
     ToolBar,
   },
   data() {
     return {
-      userName: 'takumma',
-      AppBarMainColor: 'hojichaLatte',
-      AppBarContentsColor: 'white'
+      userName: String = 'takumma',
+      AppBarMainColor: String =  'hojichaLatte',
+      AppBarContentsColor: String = 'white'
     }
   }
-};
+});
 </script>
