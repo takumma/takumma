@@ -1,6 +1,6 @@
 <template>
 	<v-card tile height="128" width="128">
-		<v-card-title class="align-center justify-center">
+		<v-card-title class="justify-center">
 			{{ skill }}
 		<v-icon size="64">{{ icon }}</v-icon>	
 		</v-card-title>	
