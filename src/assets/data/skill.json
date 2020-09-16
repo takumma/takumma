@@ -1,0 +1,70 @@
+{
+    "skills": [
+        {
+            "name": "C++",
+            "icon": "mdi-vuejs",
+            "color": "blue",
+            "memo": "学校の授業等で学習した。"
+        },
+        {
+            "name": "JavaScript",
+            "icon": "",
+            "color": "yellow",
+            "memo": "主にVue.jsを用いたWebアプリ開発に使用。"
+        },
+        {
+            "name": "Kotlin",
+            "icon": "",
+            "color": "purple",
+            "memo": "Androidアプリを開発して、コンテストに出場した。"
+        },
+        {
+            "name": "Dart",
+            "icon": "",
+            "color": "blue",
+            "memo": "Flutterを勉強中。"
+        },
+        {
+            "name": "Typescript",
+            "icon": "",
+            "color": "black",
+            "memo": "勉強中。JSのが好きだったりもする。僕は型がなくても死にません。"
+        },
+        {
+            "name": "Python",
+            "icon": "",
+            "color": "blue",
+            "memo": "いろんなことに使ったり使わなかったり。"
+        },
+        {
+            "name": "HTML/CSS",
+            "icon": "",
+            "color": "black",
+            "memo": "I HATE CSS.デザインは苦手です。"
+        },
+        {
+            "name": "Vue.js",
+            "icon": "mdi-vuejs",
+            "color": "green",
+            "memo": "Webアプリ開発をするときは大体Vueを使用しています。"
+        },
+        {
+            "name": "Flutter",
+            "icon": "",
+            "color": "skyblue",
+            "memo": "勉強中です。"
+        },
+        {
+            "name": "Android",
+            "icon": "",
+            "color": "green",
+            "memo": "kotlinを用いた開発経験アリ"
+        },
+        {
+            "name": "Git(Github)",
+            "icon": "",
+            "color": "black",
+            "memo": "それなりに"
+        }
+    ]
+}
