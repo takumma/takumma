@@ -10,7 +10,7 @@
 	>
 		<v-card-title class="justify-center" color="softBlack">
 			{{ skill }}
-			<v-icon size="64" color="softBlack">{{ icon }} {{hover ? 'mdi-spin' : '' }}</v-icon>	
+			<v-icon size="64" :color="hover ? color : 'softBlack'">{{ icon }}</v-icon>	
 		</v-card-title>
 	</v-card>
 </v-hover>
@@ -23,6 +23,7 @@ export default Vue.extend({
 	props: {
 		skill: String,
 		icon: String,
+		color: String
 	},
 	data() {
 		return {

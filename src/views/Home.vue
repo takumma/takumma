@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <skill-card skill="Vue.js" icon="mdi-vuejs"/>
+    <skill-card skill="Vue.js" icon="mdi-vuejs" color="green"/>
   </div>
 </template>
 
