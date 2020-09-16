@@ -2,43 +2,43 @@
     "skills": [
         {
             "name": "C++",
-            "icon": "mdi-vuejs",
+            "icon": "mdi-language-cpp",
             "color": "blue",
             "memo": "学校の授業等で学習した。"
         },
         {
             "name": "JavaScript",
-            "icon": "",
+            "icon": "mdi-language-javascript",
             "color": "yellow",
             "memo": "主にVue.jsを用いたWebアプリ開発に使用。"
         },
         {
             "name": "Kotlin",
-            "icon": "",
+            "icon": "mdi-language-kotlin",
             "color": "purple",
             "memo": "Androidアプリを開発して、コンテストに出場した。"
         },
         {
             "name": "Dart",
-            "icon": "",
+            "icon": "mdi-code",
             "color": "blue",
             "memo": "Flutterを勉強中。"
         },
         {
             "name": "Typescript",
-            "icon": "",
+            "icon": "mdi-language-typescript",
             "color": "black",
             "memo": "勉強中。JSのが好きだったりもする。僕は型がなくても死にません。"
         },
         {
             "name": "Python",
-            "icon": "",
+            "icon": "mdi-language-python",
             "color": "blue",
-            "memo": "いろんなことに使ったり使わなかったり。"
+            "memo": "ちょっと書ける。ちょっと。"
         },
         {
             "name": "HTML/CSS",
-            "icon": "",
+            "icon": "mdi-code",
             "color": "black",
             "memo": "I HATE CSS.デザインは苦手です。"
         },
@@ -50,19 +50,19 @@
         },
         {
             "name": "Flutter",
-            "icon": "",
+            "icon": "mdi-code",
             "color": "skyblue",
             "memo": "勉強中です。"
         },
         {
             "name": "Android",
-            "icon": "",
+            "icon": "android",
             "color": "green",
             "memo": "kotlinを用いた開発経験アリ"
         },
         {
             "name": "Git(Github)",
-            "icon": "",
+            "icon": "mdi-github",
             "color": "black",
             "memo": "それなりに"
         }
