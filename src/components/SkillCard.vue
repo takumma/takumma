@@ -1,7 +1,9 @@
 <template>
-	<v-card>
-		<v-card-title>{{ skill }}</v-card-title>
-		<v-icon>{{ icon }}</v-icon>
+	<v-card tile height="128" width="128">
+		<v-card-title class="align-center justify-center">
+			{{ skill }}
+		<v-icon size="64">{{ icon }}</v-icon>	
+		</v-card-title>	
 	</v-card>
 </template>
 
