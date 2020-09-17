@@ -2,7 +2,12 @@
   <div class="home">
     <v-container fluid>
       <v-row>
-        <v-col :cols="skills.length" v-for="skill in skills" :key="skill.name">
+        <v-col
+          xs="5" sm="4" md="3" lg="2" xl="1"
+          :cols="skills.length"
+          v-for="skill in skills"
+          :key="skill.name"
+        >
           <skill-card :skill="skill.name" :icon="skill.icon" :color="skill.color" />
         </v-col>
       </v-row>
