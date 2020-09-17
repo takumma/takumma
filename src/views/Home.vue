@@ -1,11 +1,12 @@
 <template>
   <div class="home">
-    <v-row>
-      <v-col :cols="skills.length" v-for="skill in skills" :key="skill.name">
-        <skill-card :skill="skill.name" :icon="skill.icon" :color="skill.color" />
-      </v-col>
-    </v-row>
-    <skill-card skill="Vue.js" icon="mdi-vuejs" color="green"/>
+    <v-container fluid>
+      <v-row>
+        <v-col :cols="skills.length" v-for="skill in skills" :key="skill.name">
+          <skill-card :skill="skill.name" :icon="skill.icon" :color="skill.color" />
+        </v-col>
+      </v-row>
+    </v-container>
   </div>
 </template>
 

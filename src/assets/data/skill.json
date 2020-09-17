@@ -20,7 +20,7 @@
         },
         {
             "name": "Dart",
-            "icon": "mdi-code",
+            "icon": "code",
             "color": "blue",
             "memo": "Flutterを勉強中。"
         },
@@ -38,7 +38,7 @@
         },
         {
             "name": "HTML/CSS",
-            "icon": "mdi-code",
+            "icon": "code",
             "color": "black",
             "memo": "I HATE CSS.デザインは苦手です。"
         },
@@ -50,7 +50,7 @@
         },
         {
             "name": "Flutter",
-            "icon": "mdi-code",
+            "icon": "code",
             "color": "skyblue",
             "memo": "勉強中です。"
         },
