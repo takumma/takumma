@@ -1,6 +1,5 @@
 <template>
   <div class="skill-list">
-      <h1>SKILLS</h1>
     <v-container fluid>
       <v-row>
         <v-col

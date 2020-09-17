@@ -1,5 +1,7 @@
 <template>
   <div class="home">
+    
+    <h1 style="text-align: center;">SKILLS</h1>
     <skill-list></skill-list>
   </div>
 </template>

@@ -14,7 +14,6 @@
 			<v-layout class="justify-center">
 				<v-icon size="64" :color="hover ? color : 'softBlack'">{{ icon }}</v-icon>	
 			</v-layout>
-
 		</v-card>
 	</v-hover>
 </template>
