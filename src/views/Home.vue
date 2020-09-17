@@ -1,17 +1,17 @@
 <template>
   <div class="home">
-    <skill-card skill="Vue.js" icon="mdi-vuejs"/>
+    <skill-list></skill-list>
   </div>
 </template>
 
 <script lang='ts'>
 import Vue from 'vue';
-import SkillCard from '../components/SkillCard.vue';
+import SkillList from '../components/SkillList.vue'
 
 export default Vue.extend({
   name: 'Home',
   components: {
-    SkillCard,
-  }
+    SkillList,
+  },
 })
 </script>
