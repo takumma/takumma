@@ -24,10 +24,6 @@ export default Vue.extend({
 		skill: String,
 		icon: String,
 		color: String
-	},
-	data() {
-		return {
-		}
 	}
 });
 </script>
