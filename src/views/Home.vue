@@ -1,34 +1,17 @@
 <template>
   <div class="home">
-    <v-container fluid>
-      <v-row>
-        <v-col
-          xs="5" sm="4" md="3" lg="2" xl="1"
-          :cols="skills.length"
-          v-for="skill in skills"
-          :key="skill.name"
-        >
-          <skill-card :skill="skill.name" :icon="skill.icon" :color="skill.color" />
-        </v-col>
-      </v-row>
-    </v-container>
+    <skill-list></skill-list>
   </div>
 </template>
 
 <script lang='ts'>
 import Vue from 'vue';
-import SkillCard from '../components/SkillCard.vue';
-import skillData from '../assets/data/skill.json';
+import SkillList from '../components/SkillList.vue'
 
 export default Vue.extend({
   name: 'Home',
   components: {
-    SkillCard,
+    SkillList,
   },
-  data() {
-    return {
-      skills: skillData.skills
-    }
-  }
 })
 </script>
