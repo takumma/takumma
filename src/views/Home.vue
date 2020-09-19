@@ -4,6 +4,7 @@
     <h1>SKILLS</h1>
     <skill-list></skill-list>
     <h1>PRODUCTS</h1>
+    <product-list></product-list>
     <product-list-card
       name="hoge"
       memo="hogehoge"
@@ -15,13 +16,13 @@
 <script lang='ts'>
 import Vue from 'vue';
 import SkillList from '../components/SkillList.vue'
-import ProductListCard from '../components/ProductListCard.vue'
+import ProductList from '../components/ProductList.vue'
 
 export default Vue.extend({
   name: 'Home',
   components: {
     SkillList,
-    ProductListCard
+    ProductList
   },
 })
 </script>
