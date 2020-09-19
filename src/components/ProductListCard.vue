@@ -1,8 +1,7 @@
 <template>
 	<v-card
 		tile
-		height="150"
-		width="150"
+		width="800"
 		elevation="2"
 	>
 		<v-card-title> {{ name }} </v-card-title>

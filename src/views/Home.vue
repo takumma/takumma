@@ -5,10 +5,6 @@
     <skill-list></skill-list>
     <h1>PRODUCTS</h1>
     <product-list></product-list>
-    <product-list-card
-      name="hoge"
-      memo="hogehoge"
-    />
 
   </div>
 </template>
