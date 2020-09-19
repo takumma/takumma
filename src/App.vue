@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app id="app">
     <tool-bar
       :userName="userName"
       :mainColor="AppBarMainColor"
@@ -28,3 +28,10 @@ export default Vue.extend({
   }
 });
 </script>
+
+<style scoped>
+#app {
+  margin-top: 60px;
+  text-align: center;
+}
+</style>
