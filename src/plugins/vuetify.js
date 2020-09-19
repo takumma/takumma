@@ -11,7 +11,7 @@ export default new Vuetify({
       light: {
         hojichaLatte: '#C4A169',
         chocorate: '#524900',
-        softBlack: '#242323',
+        softBlack: '#555555',
 
         accent: colors.cyan.accent1,
       }

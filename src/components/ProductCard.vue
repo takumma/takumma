@@ -5,6 +5,9 @@
 		width="150"
 		elevation="2"
 	>
+		<v-card-title class="justify-center text-no-wrap">
+			{{ name }}
+		</v-card-title>
 	</v-card>
 </template>
 
