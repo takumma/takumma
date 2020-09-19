@@ -11,7 +11,7 @@
           v-for="skill in skills"
           :key="skill.name"
         >
-          <skill-card
+          <skill-list-card
             :skill="skill.name"
             :icon="skill.icon"
             :color="skill.color"
@@ -24,13 +24,13 @@
 
 <script lang='ts'>
 import Vue from 'vue';
-import SkillCard from '../components/SkillCard.vue';
+import SkillListCard from '../components/SkillListCard.vue';
 import skillData from '../assets/data/skill.json';
 
 export default Vue.extend({
   name: 'Home',
   components: {
-    SkillCard,
+    SkillListCard,
   },
   data() {
     return {
