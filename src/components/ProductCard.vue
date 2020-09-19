@@ -5,9 +5,10 @@
 		width="150"
 		elevation="2"
 	>
-		<v-card-title class="justify-center text-no-wrap">
-			{{ name }}
-		</v-card-title>
+		<v-card-title> {{ name }} </v-card-title>
+		<v-card-text>
+			{{ memo }}
+		</v-card-text>
 	</v-card>
 </template>
 
