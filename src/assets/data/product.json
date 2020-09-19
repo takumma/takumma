@@ -1,0 +1,24 @@
+{
+    "products": [
+        {
+            "name": "TABINOW",
+            "tech": "kotlin",
+            "github": "https://github.com/takumma/tabinow",
+            "url": "",
+            "memo": "旅行計画に沿った天気予報が見られるAndroidアプリ。機械学習により、訪れる場所がその天気に適しているかを表すおすすめ度をみることができる。"
+        },
+        {
+            "name": "mask-game",
+            "tech": "Vue.js",
+            "github": "https://github.com/takumma/mask-game",
+            "url": "",
+            "memo": "コロナによる休校期間中につくったマスクをつけて遊ぶブラウザゲーム。"
+        }
+    ],
+    "others": [
+        {
+            "name": "portfolio",
+            "memo": "このサイト"
+        }
+    ]
+}

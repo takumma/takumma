@@ -8,13 +8,17 @@
 			width="150"
 			:elevation="hover ? 8 : 2"
 		>
-			<v-card-title class="justify-center text-no-wrap" color="softBlack">
+			<v-card-title class="justify-center text-no-wrap">
 				{{ skill }}
 			</v-card-title>
 			<v-layout class="justify-center">
-				<v-icon size="64" :color="hover ? color : 'softBlack'">{{ icon }}</v-icon>	
+				<v-icon
+					size="64"
+					:color="hover ? color : 'softBlack'"
+				>
+					{{ icon }}
+				</v-icon>	
 			</v-layout>
-
 		</v-card>
 	</v-hover>
 </template>
