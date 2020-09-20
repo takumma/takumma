@@ -6,10 +6,11 @@
         justify="center"
       >
         <v-col
-          xs="5" sm="4" md="3" lg="2" xl="1"
+          xs="12" sm="4" md="3" lg="2"
           :cols="skills.length"
           v-for="skill in skills"
           :key="skill.name"
+          align="center"
         >
           <skill-list-card
             :skill="skill.name"
@@ -25,17 +26,13 @@
 <script lang='ts'>
 import Vue from 'vue';
 import SkillListCard from '../components/SkillListCard.vue';
-import skillData from '../assets/data/skill.json';
 
 export default Vue.extend({
-  name: 'Home',
   components: {
     SkillListCard,
   },
-  data() {
-    return {
-      skills: skillData.skills
-    }
-  }
+  props: {
+    skills: [],
+  },
 })
 </script>

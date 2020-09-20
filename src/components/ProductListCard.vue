@@ -1,14 +1,18 @@
 <template>
 	<v-card
 		tile
-		height="150"
-		width="150"
+		width="800"
 		elevation="2"
+		class="px-3"
 	>
-		<v-card-title> {{ name }} </v-card-title>
-		<v-card-text>
-			{{ memo }}
-		</v-card-text>
+		<v-list-item three-line>
+			<v-list-item-content class="text-left">
+				<v-list-item-title class="text-h4"> {{ name }} </v-list-item-title>
+				<v-list-item-subtitle> {{ memo }} </v-list-item-subtitle>
+			</v-list-item-content>
+			
+		</v-list-item>
+		
 	</v-card>
 </template>
 

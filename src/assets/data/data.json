@@ -1,4 +1,38 @@
 {
+    "nickname": "takumma",
+    "real-name": "市川拓磨",
+    "birthday": "2002-10-3",
+    "belong": "鈴鹿工業高等専門学校 電子情報工学科",
+    "interest": [
+        "Rock Music",
+        "Vue.js",
+        "Flutter",
+        "Secity"
+    ],
+    "products":{
+        "products": [
+            {
+                "name": "TABINOW",
+                "tech": "kotlin",
+                "github": "https://github.com/takumma/tabinow",
+                "url": "",
+                "memo": "旅行計画に沿った天気予報が見られるAndroidアプリ。機械学習により、訪れる場所がその天気に適しているかを表すおすすめ度をみることができる。"
+            },
+            {
+                "name": "mask-game",
+                "tech": "Vue.js",
+                "github": "https://github.com/takumma/mask-game",
+                "url": "",
+                "memo": "コロナによる休校期間中につくったマスクをつけて遊ぶブラウザゲーム。"
+            }
+        ],
+        "others": [
+            {
+                "name": "portfolio",
+                "memo": "このサイト"
+            }
+        ]
+    },
     "skills": [
         {
             "name": "C++",
@@ -37,12 +71,6 @@
             "memo": "ちょっと書ける。ちょっと。"
         },
         {
-            "name": "HTML/CSS",
-            "icon": "code",
-            "color": "black",
-            "memo": "I HATE CSS.デザインは苦手です。"
-        },
-        {
             "name": "Vue.js",
             "icon": "mdi-vuejs",
             "color": "green",
@@ -51,7 +79,7 @@
         {
             "name": "Flutter",
             "icon": "code",
-            "color": "skyblue",
+            "color": "cyan",
             "memo": "勉強中です。"
         },
         {
@@ -66,5 +94,9 @@
             "color": "black",
             "memo": "それなりに"
         }
-    ]
+    ],
+    "links": {
+        "github": "https://github.com/takumma",
+        "twitter": "https://twitter.com/tak_kum_ma"
+    }
 }
