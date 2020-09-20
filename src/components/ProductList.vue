@@ -22,7 +22,6 @@
 <script lang='ts'>
 import Vue from 'vue';
 import ProductListCard from '../components/ProductListCard.vue';
-import ProductData from '../assets/data/product.json';
 
 export default Vue.extend({
 	components: {
