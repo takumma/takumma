@@ -29,7 +29,6 @@ import SkillListCard from '../components/SkillListCard.vue';
 import skillData from '../assets/data/skill.json';
 
 export default Vue.extend({
-  name: 'Home',
   components: {
     SkillListCard,
   },

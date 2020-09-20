@@ -14,17 +14,10 @@
 import Vue from 'vue';
 
 export default Vue.extend({
-  components: {
-    
-  },
   props: {
     userName: String,
     mainColor: String,
     contentsColor: String,
-  },
-  data() {
-    return {
-    }
   }
 });
 </script>
