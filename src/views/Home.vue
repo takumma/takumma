@@ -4,7 +4,10 @@
     <div class="text-h3">SKILLS</div>
     <skill-list :skills="data.skills"/>
     <div class='text-h3'>PRODUCTS</div>
-    <product-list></product-list>
+    <product-list
+      :products="data.products.products"
+      :others="data.products.others"
+    />
 
   </div>
 </template>

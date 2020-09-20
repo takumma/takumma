@@ -28,10 +28,13 @@ export default Vue.extend({
 	components: {
 		ProductListCard,
 	},
+	props: {
+			products: [],
+			others: [],
+	},
 	data() {
 		return {
-			products: ProductData.products,
-			others: ProductData.others,
+			
 		}
 	}
 })
