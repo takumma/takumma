@@ -1,4 +1,103 @@
 {
     "nickname": "takumma",
-    "real-name": "Ichikawa Takuma"
+    "real-name": "Ichikawa Takuma",
+    "birthday": "2002-10-3",
+    "interest": [
+        "Rock Music",
+        "Vue.js",
+        "Flutter",
+        "Secity"
+    ],
+    "products":{
+        "products": [
+            {
+                "name": "TABINOW",
+                "tech": "kotlin",
+                "github": "https://github.com/takumma/tabinow",
+                "url": "",
+                "memo": "旅行計画に沿った天気予報が見られるAndroidアプリ。機械学習により、訪れる場所がその天気に適しているかを表すおすすめ度をみることができる。"
+            },
+            {
+                "name": "mask-game",
+                "tech": "Vue.js",
+                "github": "https://github.com/takumma/mask-game",
+                "url": "",
+                "memo": "コロナによる休校期間中につくったマスクをつけて遊ぶブラウザゲーム。"
+            }
+        ],
+        "others": [
+            {
+                "name": "portfolio",
+                "memo": "このサイト"
+            }
+        ]
+    },
+    "skills": [
+        {
+            "name": "C++",
+            "icon": "mdi-language-cpp",
+            "color": "blue",
+            "memo": "学校の授業等で学習した。"
+        },
+        {
+            "name": "JavaScript",
+            "icon": "mdi-language-javascript",
+            "color": "yellow",
+            "memo": "主にVue.jsを用いたWebアプリ開発に使用。"
+        },
+        {
+            "name": "Kotlin",
+            "icon": "mdi-language-kotlin",
+            "color": "purple",
+            "memo": "Androidアプリを開発して、コンテストに出場した。"
+        },
+        {
+            "name": "Dart",
+            "icon": "code",
+            "color": "blue",
+            "memo": "Flutterを勉強中。"
+        },
+        {
+            "name": "Typescript",
+            "icon": "mdi-language-typescript",
+            "color": "black",
+            "memo": "勉強中。JSのが好きだったりもする。僕は型がなくても死にません。"
+        },
+        {
+            "name": "Python",
+            "icon": "mdi-language-python",
+            "color": "blue",
+            "memo": "ちょっと書ける。ちょっと。"
+        },
+        {
+            "name": "HTML/CSS",
+            "icon": "code",
+            "color": "black",
+            "memo": "I HATE CSS.デザインは苦手です。"
+        },
+        {
+            "name": "Vue.js",
+            "icon": "mdi-vuejs",
+            "color": "green",
+            "memo": "Webアプリ開発をするときは大体Vueを使用しています。"
+        },
+        {
+            "name": "Flutter",
+            "icon": "code",
+            "color": "cyan",
+            "memo": "勉強中です。"
+        },
+        {
+            "name": "Android",
+            "icon": "android",
+            "color": "green",
+            "memo": "kotlinを用いた開発経験アリ"
+        },
+        {
+            "name": "Git(Github)",
+            "icon": "mdi-github",
+            "color": "black",
+            "memo": "それなりに"
+        }
+    ]
 }
