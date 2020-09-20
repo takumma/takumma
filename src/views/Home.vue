@@ -1,9 +1,9 @@
 <template>
   <div class="home">
     
-    <h1>SKILLS</h1>
+    <div class="text-h3">SKILLS</div>
     <skill-list :skills="data.skills"/>
-    <h1>PRODUCTS</h1>
+    <div class='text-h3'>PRODUCTS</div>
     <product-list></product-list>
 
   </div>
