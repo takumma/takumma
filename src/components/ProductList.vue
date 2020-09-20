@@ -8,6 +8,7 @@
 				:cols="products.length"
 				v-for="product in products"
 				:key="product.name"
+				class="pa-3 justify-center"
 			>
 				<product-list-card
 					:name="product.name"

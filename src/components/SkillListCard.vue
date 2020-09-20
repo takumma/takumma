@@ -1,7 +1,5 @@
 <template>
-	<v-hover
-		v-slot:default="{ hover }"
-	>
+	<v-hover v-slot:default="{ hover }">
 		<v-card
 			tile
 			height="150"

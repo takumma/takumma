@@ -6,10 +6,11 @@
         justify="center"
       >
         <v-col
-          xs="5" sm="4" md="3" lg="2" xl="1"
+          xs="12" sm="4" md="3" lg="2"
           :cols="skills.length"
           v-for="skill in skills"
           :key="skill.name"
+          align="center"
         >
           <skill-list-card
             :skill="skill.name"
