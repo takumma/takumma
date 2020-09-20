@@ -32,10 +32,8 @@ export default Vue.extend({
   components: {
     SkillListCard,
   },
-  data() {
-    return {
-      skills: skillData.skills
-    }
-  }
+  props: {
+    skills: [],
+  },
 })
 </script>

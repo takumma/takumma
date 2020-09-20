@@ -71,12 +71,6 @@
             "memo": "ちょっと書ける。ちょっと。"
         },
         {
-            "name": "HTML/CSS",
-            "icon": "code",
-            "color": "black",
-            "memo": "I HATE CSS.デザインは苦手です。"
-        },
-        {
             "name": "Vue.js",
             "icon": "mdi-vuejs",
             "color": "green",
