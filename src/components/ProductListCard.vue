@@ -7,12 +7,10 @@
 	>
 		<v-list-item three-line>
 			<v-list-item-content class="text-left">
-				<v-list-item-title class="text-h4"> {{ name }} </v-list-item-title>
-				<v-list-item-subtitle> {{ memo }} </v-list-item-subtitle>
+				<v-list-item-title class="text-h4 mb-4"> {{ name }} </v-list-item-title>
+				<v-list-item-subtitle class="text-body-1 mr-3 mb-3 ml-6 font-weight-black"> {{ memo }} </v-list-item-subtitle>
 			</v-list-item-content>
-			
 		</v-list-item>
-		
 	</v-card>
 </template>
 
