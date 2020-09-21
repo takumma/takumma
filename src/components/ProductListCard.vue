@@ -13,13 +13,30 @@
 		</v-list-item>
 
 		<v-card-actions>
-			<v-btn-toggle class="text-right mx-2">
-				<v-btn text>
-					<v-icon class="mr-1">mdi-github</v-icon>
+			<v-btn-toggle class="ml-auto mr-2">
+				<v-btn
+					text
+					class="mr-4"
+					color="chocorate"
+				>
+					<v-icon
+						class="mr-1"
+						color="chocorate"
+					>
+						mdi-github
+					</v-icon>
 					github
 				</v-btn>
-				<v-btn text>
-					<v-icon class="mr-1">mdi-link</v-icon>
+				<v-btn
+					text
+					color="chocorate"
+				>
+					<v-icon
+						class="mr-1"
+						color="chocorate"
+					>
+						mdi-link
+					</v-icon>
 					SITE URL
 				</v-btn>
 			</v-btn-toggle>
