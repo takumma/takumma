@@ -1,6 +1,8 @@
 <template>
   <div class="home">
     
+    <title-text title="PROFILEs"/>
+
     <title-text title="SKILLs"/>
     <skill-list
       class="mb-8"
