@@ -16,7 +16,16 @@
         "products": [
             {
                 "name": "TABINOW",
-                "tech": "kotlin",
+                "techs": [
+                    {
+                        "name": "kotlin",
+                        "icon": "mdi-language-kotlin"
+                    },
+                    {
+                        "name": "Android",
+                        "icon": "android"
+                    }
+                ],
                 "links": [
                     {
                         "name": "GITHUB",
@@ -28,7 +37,16 @@
             },
             {
                 "name": "mask-game",
-                "tech": "Vue.js",
+                "techs": [
+                    {
+                        "name": "Vue.js",
+                        "icon": "mdi-vuejs"
+                    },
+                    {
+                        "name": "JavaScript",
+                        "icon": "mdi-language-javascript"
+                    }
+                ],
                 "links": [
                     {
                         "name": "GITHUB",
