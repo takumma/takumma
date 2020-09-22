@@ -1,9 +1,16 @@
 <template>
   <div class="home">
     
-    <div class="text-h3 chocorate--text">SKILLS</div>
-    <skill-list :skills="data.skills"/>
-    <div class='text-h3 chocorate--text'>PRODUCTS</div>
+    <title-text title="PROFILEs"/>
+    <profile
+      class="mb-8"
+      :profiles="data.profiles"/>
+    <title-text title="SKILLs"/>
+    <skill-list
+      class="mb-8"
+      :skills="data.skills"
+    />
+    <title-text title="PRODUCTs"/>
     <product-list
       :products="data.products.products"
       :others="data.products.others"
@@ -14,6 +21,8 @@
 
 <script lang='ts'>
 import Vue from 'vue';
+import TitleText from '../components/TitleText.vue';
+import Profile from '../components/Profile.vue';
 import SkillList from '../components/SkillList.vue';
 import ProductList from '../components/ProductList.vue';
 import data from '../assets/data/data.json';
@@ -21,6 +30,8 @@ import data from '../assets/data/data.json';
 export default Vue.extend({
   name: 'Home',
   components: {
+    TitleText,
+    Profile,
     SkillList,
     ProductList
   },
