@@ -13,39 +13,17 @@
 		</v-list-item>
 
 		<v-card-actions>
-			<v-btn-toggle class="ml-auto mr-2">
-				<v-btn
-					text
-					class="mr-4"
-					color="chocorate"
-				>
-					<v-icon
-						class="mr-1"
-						color="chocorate"
-					>
-						mdi-github
-					</v-icon>
-					github
-				</v-btn>
-				<v-btn
-					text
-					color="chocorate"
-				>
-					<v-icon
-						class="mr-1"
-						color="chocorate"
-					>
-						mdi-link
-					</v-icon>
-					SITE URL
-				</v-btn>
-			</v-btn-toggle>
+			<text-button-toggle
+				:github="github"
+				:url="url"
+			/>
 		</v-card-actions>
 	</v-card>
 </template>
 
 <script lang='ts'>
 import Vue from 'vue';
+import TextButtonToggle from '../components/TextButtonToggle.vue';
 
 export default Vue.extend({
 	props: {
@@ -54,6 +32,9 @@ export default Vue.extend({
 		github: String,
 		url: String,
 		memo: String
+	},
+	components: {
+		TextButtonToggle,
 	}
 });
 </script>

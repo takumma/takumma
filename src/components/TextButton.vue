@@ -2,7 +2,7 @@
 	<v-btn
 			text
 			color="chocorate"
-			:href="link"
+			:href="url"
 		>
 			<v-icon
 				class="mr-1"
@@ -20,7 +20,7 @@ export default Vue.extend({
 	props: {
 		icon: String,
 		btnText: String,
-		link: String,
+		url: String,
 	}
 })
 </script>

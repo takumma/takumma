@@ -4,12 +4,13 @@
 			class="mr-4"
 			icon="mdi-github"
 			btnText="GITHUB"
-			:link="github"
+			:url="github"
 		/>
 		<text-button
+			class="mr-4"
 			icon="mdi-link"
 			btnText="SITE LINK"
-			:link="url"
+			:url="url"
 		/>
 	</v-btn-toggle>
 </template>
