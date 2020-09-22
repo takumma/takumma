@@ -9,8 +9,14 @@
       </v-list-item>
       <v-list-item>
         <v-list-item-content>
-          <v-list-item-title class="text-h5 chocorate--text">INTEREST:</v-list-item-title>
-          <div v-for="interest in profiles.interests" :key="interest">{{ interest }}</div>
+          <v-list-item-title class="text-h5 chocorate--text font-weight-bold">INTEREST:</v-list-item-title>
+          <div
+            class="text-h5 chocorate--text"
+            v-for="interest in profiles.interests"
+            :key="interest"
+          >
+            {{ interest }}
+          </div>
         </v-list-item-content>
       </v-list-item>
     </v-list>
