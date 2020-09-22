@@ -10,7 +10,7 @@
 			>
 				{{ icon }}
 			</v-icon>
-			{{ text }}
+			{{ btnText }}
 		</v-btn>
 </template>
 
@@ -19,7 +19,7 @@ import Vue from 'vue'
 export default Vue.extend({
 	props: {
 		icon: String,
-		text: String,
+		btnText: String,
 		link: String,
 	}
 })
