@@ -10,6 +10,7 @@
 				<product-list-card
 					:name="product.name"
 					:memo="product.memo"
+					:links="product.links"
 				/>
 			</v-list-item>
 		</v-list>

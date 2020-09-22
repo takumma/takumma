@@ -2,6 +2,14 @@
 	<v-btn-toggle class="ml-auto mr-2">
 		<text-button
 			class="mr-4"
+			v-for="link in links"
+			:key="link.name"
+			:btnText="link.name"
+			:icon="link.icon"
+			:url="link.url"
+		/>
+		<text-button
+			class="mr-4"
 			icon="mdi-github"
 			btnText="GITHUB"
 			:url="github"
@@ -23,6 +31,7 @@ export default Vue.extend({
 	props: {
 		github: String,
 		url: String,
+		links: Array,
 	},
 	components: {
 		TextButton,

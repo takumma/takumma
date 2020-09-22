@@ -17,6 +17,7 @@
                 "links": [
                     {
                         "name": "GITHUB",
+                        "icon": "mdi-github",
                         "url": "https://github.com/takumma/tabinow"
                     }
                 ],
@@ -28,6 +29,7 @@
                 "links": [
                     {
                         "name": "GITHUB",
+                        "icon": "mdi-github",
                         "url": "https://github.com/takumma/mask-game"
                     }
                 ],

@@ -16,6 +16,7 @@
 			<text-button-toggle
 				:github="github"
 				:url="url"
+				:links="links"
 			/>
 		</v-card-actions>
 	</v-card>
@@ -31,7 +32,8 @@ export default Vue.extend({
 		tech: String,
 		github: String,
 		url: String,
-		memo: String
+		memo: String,
+		links: Array,
 	},
 	components: {
 		TextButtonToggle,
