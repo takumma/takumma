@@ -9,14 +9,12 @@
 			<v-list-item-content class="text-left">
 				<v-list-item-title class="text-h4 chocorate--text mb-4 d-inline-flex">
 					{{ name }}
-					<v-chip
-						class="ml-2 my-auto"
-						v-for="tech in techs"
-						:key="tech"
-					>
-						<v-icon class="mr-1">{{ tech.icon }}</v-icon>
-						{{ tech.name}}
-					</v-chip>
+						<tech-chip
+							v-for="(tech, index) in techs"
+							:key="tech"
+							:tech="tech"
+							:class="index == 0 ? 'ml-6' : 'ml-2'"
+						/>
 				</v-list-item-title>
 				<v-list-item-subtitle class="wrap-text text-body-1 mr-3 mb-3 ml-6 font-weight-black">
 					{{ memo }}
@@ -34,6 +32,7 @@
 
 <script lang='ts'>
 import Vue from 'vue';
+import TechChip from '../components/TechChip.vue';
 import TextButtonToggle from '../components/TextButtonToggle.vue';
 
 export default Vue.extend({
@@ -44,6 +43,7 @@ export default Vue.extend({
 		links: Array,
 	},
 	components: {
+		TechChip,
 		TextButtonToggle,
 	}
 });
