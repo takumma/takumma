@@ -1,9 +1,6 @@
 <template>
 	<div class="product-list">
-		<v-list
-			align="center"
-			justify="center"
-		>
+		<v-list class="align-center justify-center">
 			<v-list-item
 				:cols="products.length"
 				v-for="product in products"
@@ -28,8 +25,8 @@ export default Vue.extend({
 		ProductListCard,
 	},
 	props: {
-			products: [],
-			others: [],
+			products: Array,
+			others: Array,
 	},
 	data() {
 		return {
