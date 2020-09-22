@@ -4,7 +4,8 @@
     <title-text title="PROFILEs"/>
     <profile
       class="mb-8"
-      :profiles="data.profiles"/>
+      :profiles="data.profiles"
+    />
     <title-text title="SKILLs"/>
     <skill-list
       class="mb-8"

@@ -6,6 +6,7 @@
         "belong": "鈴鹿工業高等専門学校 電子情報工学科",
         "interests": [
             "Rock Music",
+            "Moter Sports",
             "Vue.js",
             "Flutter",
             "Secity"
@@ -15,7 +16,16 @@
         "products": [
             {
                 "name": "TABINOW",
-                "tech": "kotlin",
+                "techs": [
+                    {
+                        "name": "kotlin",
+                        "icon": "mdi-language-kotlin"
+                    },
+                    {
+                        "name": "Android",
+                        "icon": "android"
+                    }
+                ],
                 "links": [
                     {
                         "name": "GITHUB",
@@ -27,7 +37,16 @@
             },
             {
                 "name": "mask-game",
-                "tech": "Vue.js",
+                "techs": [
+                    {
+                        "name": "Vue.js",
+                        "icon": "mdi-vuejs"
+                    },
+                    {
+                        "name": "JavaScript",
+                        "icon": "mdi-language-javascript"
+                    }
+                ],
                 "links": [
                     {
                         "name": "GITHUB",
