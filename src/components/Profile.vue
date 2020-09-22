@@ -7,6 +7,12 @@
       >
         <profile-list-item :title="item.name" :value="item.value"/>
       </v-list-item>
+      <v-list-item>
+        <v-list-item-content>
+          <v-list-item-title class="text-h5 chocorate--text">INTEREST:</v-list-item-title>
+          <div v-for="interest in profiles.interests" :key="interest">{{ interest }}</div>
+        </v-list-item-content>
+      </v-list-item>
     </v-list>
   </div>
 </template>
@@ -28,7 +34,7 @@ export default Vue.extend({
         { name: "REAL-NAME", value: this.profiles.real_name },
         { name: "BIRTHDAY", value: this.profiles.birthday },
         { name: "BELONG", value: this.profiles.belong },
-      ]
+      ],
     }
   }
 })

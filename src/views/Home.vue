@@ -2,7 +2,9 @@
   <div class="home">
     
     <title-text title="PROFILEs"/>
-    <profile :profiles="data.profiles"/>
+    <profile
+      class="mb-8"
+      :profiles="data.profiles"/>
     <title-text title="SKILLs"/>
     <skill-list
       class="mb-8"
