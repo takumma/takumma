@@ -2,7 +2,7 @@
   <div class="home">
     
     <title-text title="PROFILEs"/>
-
+    <profile :profiles="data.profiles"/>
     <title-text title="SKILLs"/>
     <skill-list
       class="mb-8"
@@ -20,6 +20,7 @@
 <script lang='ts'>
 import Vue from 'vue';
 import TitleText from '../components/TitleText.vue';
+import Profile from '../components/Profile.vue';
 import SkillList from '../components/SkillList.vue';
 import ProductList from '../components/ProductList.vue';
 import data from '../assets/data/data.json';
@@ -28,6 +29,7 @@ export default Vue.extend({
   name: 'Home',
   components: {
     TitleText,
+    Profile,
     SkillList,
     ProductList
   },
