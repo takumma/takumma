@@ -7,7 +7,13 @@
 	>
 		<v-list-item>
 			<v-list-item-content class="text-left">
-				<v-list-item-title class="text-h4 chocorate--text mb-4"> {{ name }} </v-list-item-title>
+				<v-list-item-title class="text-h4 chocorate--text mb-4 d-inline-flex">
+					{{ name }}
+					<v-chip v-for="tech in techs" :key="tech">
+						<v-icon>{{ tech.icon }}</v-icon>
+						{{ tech.name}}
+					</v-chip>
+				</v-list-item-title>
 				<v-list-item-subtitle class="wrap-text text-body-1 mr-3 mb-3 ml-6 font-weight-black">
 					{{ memo }}
 				</v-list-item-subtitle>
@@ -29,7 +35,7 @@ import TextButtonToggle from '../components/TextButtonToggle.vue';
 export default Vue.extend({
 	props: {
 		name: String,
-		tech: String,
+		techs: Array,
 		memo: String,
 		links: Array,
 	},

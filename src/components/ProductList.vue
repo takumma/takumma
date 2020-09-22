@@ -9,6 +9,7 @@
 			>
 				<product-list-card
 					:name="product.name"
+					:techs="product.techs"
 					:memo="product.memo"
 					:links="product.links"
 				/>
