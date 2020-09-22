@@ -5,10 +5,12 @@
 		elevation="2"
 		class="px-3"
 	>
-		<v-list-item three-line>
+		<v-list-item>
 			<v-list-item-content class="text-left">
 				<v-list-item-title class="text-h4 chocorate--text mb-4"> {{ name }} </v-list-item-title>
-				<v-list-item-subtitle class="text-body-1 mr-3 mb-3 ml-6 font-weight-black"> {{ memo }} </v-list-item-subtitle>
+				<v-list-item-subtitle class="wrap-text text-body-1 mr-3 mb-3 ml-6 font-weight-black">
+					{{ memo }}
+				</v-list-item-subtitle>
 			</v-list-item-content>
 		</v-list-item>
 
@@ -36,3 +38,10 @@ export default Vue.extend({
 	}
 });
 </script>
+
+<style scoped>
+.wrap-text {
+  word-break: break-all;
+  white-space: normal;
+}
+</style>
