@@ -8,18 +8,6 @@
 			:icon="link.icon"
 			:url="link.url"
 		/>
-		<text-button
-			class="mr-4"
-			icon="mdi-github"
-			btnText="GITHUB"
-			:url="github"
-		/>
-		<text-button
-			class="mr-4"
-			icon="mdi-link"
-			btnText="SITE LINK"
-			:url="url"
-		/>
 	</v-btn-toggle>
 </template>
 
@@ -29,8 +17,6 @@ import TextButton from '../components/TextButton.vue'
 
 export default Vue.extend({
 	props: {
-		github: String,
-		url: String,
 		links: Array,
 	},
 	components: {

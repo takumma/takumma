@@ -14,8 +14,6 @@
 
 		<v-card-actions>
 			<text-button-toggle
-				:github="github"
-				:url="url"
 				:links="links"
 			/>
 		</v-card-actions>
@@ -30,8 +28,6 @@ export default Vue.extend({
 	props: {
 		name: String,
 		tech: String,
-		github: String,
-		url: String,
 		memo: String,
 		links: Array,
 	},
