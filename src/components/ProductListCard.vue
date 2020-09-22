@@ -9,8 +9,12 @@
 			<v-list-item-content class="text-left">
 				<v-list-item-title class="text-h4 chocorate--text mb-4 d-inline-flex">
 					{{ name }}
-					<v-chip v-for="tech in techs" :key="tech">
-						<v-icon>{{ tech.icon }}</v-icon>
+					<v-chip
+						class="ml-2 my-auto"
+						v-for="tech in techs"
+						:key="tech"
+					>
+						<v-icon class="mr-1">{{ tech.icon }}</v-icon>
 						{{ tech.name}}
 					</v-chip>
 				</v-list-item-title>
