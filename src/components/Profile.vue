@@ -2,10 +2,10 @@
   <div>
     <v-list>
       <v-list-item
-        v-for="item in listItems"
+        v-for="item in profiles"
         :key="item.name"
       >
-        <profile-list-item :title="item.name" :value="item.value"/>
+        <profile-list-item :title="item.name" :values="item.values"/>
       </v-list-item>
       <v-list-item>
         <v-list-item-content>
@@ -31,16 +31,17 @@ export default Vue.extend({
     ProfileListItem,
   },
   props: {
-    profiles: Object,
+    profiles: Array,
   },
   data() {
     return {
-      listItems: [
-        { name: "NICKNAME", value: this.profiles.nickname },
-        { name: "REAL-NAME", value: this.profiles.real_name },
-        { name: "BIRTHDAY", value: this.profiles.birthday },
-        { name: "BELONG", value: this.profiles.belong },
-      ],
+      // listItems: [
+      //   { name: "NICKNAME", value: this.profiles.nickname },
+      //   { name: "REAL-NAME", value: this.profiles.real_name },
+      //   { name: "BIRTHDAY", value: this.profiles.birthday },
+      //   { name: "BELONG", value: this.profiles.belong },
+      //   { name: "INTERESTs", value: this.profiles.interests }
+      // ],
     }
   }
 })
