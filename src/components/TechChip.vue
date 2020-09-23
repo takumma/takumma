@@ -1,5 +1,8 @@
 <template>
-  <v-chip class="ml-2 my-auto">
+  <v-chip
+    class="ml-2 my-auto chocorate chocorate--text"
+    outlined
+  >
     <v-icon class="mr-1">{{ tech.icon }}</v-icon>
     {{ tech.name}}
   </v-chip>
