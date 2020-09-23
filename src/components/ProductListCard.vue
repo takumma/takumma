@@ -11,7 +11,7 @@
 					{{ name }}
 						<tech-chip
 							v-for="(tech, index) in techs"
-							:key="tech"
+							:key="index"
 							:tech="tech"
 							:class="index == 0 ? 'ml-6' : 'ml-2'"
 						/>
