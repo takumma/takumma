@@ -13,6 +13,7 @@
 
 <script lang='ts'>
 import Vue from 'vue';
+import 'normalize.css'
 import ToolBar from './components/ToolBar.vue'
 
 export default Vue.extend({
