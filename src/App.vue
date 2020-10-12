@@ -28,10 +28,3 @@ export default Vue.extend({
   }
 });
 </script>
-
-<style scoped>
-#app {
-  margin-top: 60px;
-  text-align: center;
-}
-</style>
