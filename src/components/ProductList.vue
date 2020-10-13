@@ -29,11 +29,6 @@ export default Vue.extend({
 	props: {
 			products: Array,
 			others: Array,
-	},
-	data() {
-		return {
-			
-		}
 	}
 })
 </script>

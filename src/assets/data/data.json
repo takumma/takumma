@@ -13,6 +13,10 @@
             "values": ["2002-10-3"]
         },
         {
+            "name": "AGE",
+            "values": ["18"]
+        },
+        {
             "name": "BELONG",
             "values": [
                 "鈴鹿工業高等専門学校",
@@ -23,7 +27,6 @@
             "name": "INTERESTs",
             "values": [
             "Rock Music",
-            "Moter Sports",
             "Vue.js",
             "Flutter",
             "Secity"
@@ -73,6 +76,25 @@
                     }
                 ],
                 "memo": "コロナによる休校期間中につくったマスクをつけて遊ぶブラウザゲーム。"
+            },
+            {
+                "name": "kinku.me",
+                "techs": [
+                    {
+                        "name": "Vue.js",
+                        "icon": "mdi-vuejs"
+                    },
+                    {
+                        "name": "JavaScript",
+                        "icon": "mdi-language-javascript"
+                    },
+                    {
+                        "name": "Spring Boot",
+                        "icon": "mdi-leaf"
+                    }
+                ],
+                "links": [],
+                "memo": "CCCu22で作ったハラスメントに関するWebアプリケーション"
             }
         ],
         "others": [
@@ -142,6 +164,26 @@
             "icon": "mdi-github",
             "color": "black",
             "memo": "それなりに"
+        }
+    ],
+    "activities": [
+        {
+            "title": "パソコン甲子園2019モバイル部門本戦出場",
+            "subtitle": "会津大学主催のAndroidアプリケーションコンテスト",
+            "time-stamp": "",
+            "memo": "友達2人と3人チームでAndroidアプリ\"TABINOW\"を開発した。"
+        },
+        {
+            "title": "CCCu22参加",
+            "subtitle": "Code for Japan主催のHackathon",
+            "time-stamp": "",
+            "memo": "ここで知り合った大学生3人と組んで4人で\"kinku.me\"を開発した。"
+        },
+        {
+            "title": "SECCON2020参加",
+            "subtitle": "Online CTF",
+            "time-stamp": "",
+            "memo": "CTF初参加。全く解けなかった（でも楽しかった）。"
         }
     ],
     "links": {

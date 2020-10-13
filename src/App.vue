@@ -13,6 +13,7 @@
 
 <script lang='ts'>
 import Vue from 'vue';
+import 'normalize.css'
 import ToolBar from './components/ToolBar.vue'
 
 export default Vue.extend({
@@ -28,10 +29,3 @@ export default Vue.extend({
   }
 });
 </script>
-
-<style scoped>
-#app {
-  margin-top: 60px;
-  text-align: center;
-}
-</style>
