@@ -2,23 +2,22 @@
   <div class="timeline">
     <v-timeline>
       <v-timeline-item
-        v-for="(year, i) in years"
+        v-for="(activity, i) in activities"
         :key="i"
-        :color="year.color"
         small
       >
         <template v-slot:opposite>
           <span
-            :class="`headline font-weight-bold ${year.color}--text`"
-            v-text="year.year"
+            :class="`headline font-weight-bold`"
+            v-text="activity.timeStamp"
           ></span>
         </template>
         <div class="py-4">
-          <h2 :class="`headline font-weight-light mb-4 ${year.color}--text`">
-            Lorem ipsum
+          <h2 :class="`headline font-weight-light mb-4`">
+            {{ activity.title }}
           </h2>
           <div>
-            Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.
+            {{ activity.memo }}
           </div>
         </div>
       </v-timeline-item>
@@ -31,28 +30,26 @@ import Vue from 'vue'
 export default Vue.extend({
   data() {
     return {
-      years: [
+      activities: [
         {
-          color: 'cyan',
-          year: '1960',
+            title: "パソコン甲子園2019モバイル部門本戦出場",
+            subtitle: "会津大学主催のAndroidアプリケーションコンテスト",
+            timeStamp: "2019-11-12",
+            memo: "友達2人と3人チームでAndroidアプリ\"TABINOW\"を開発した。"
         },
         {
-          color: 'green',
-          year: '1970',
+            title: "CCCu22参加",
+            subtitle: "Code for Japan主催のHackathon",
+            timeStamp: "2020-9",
+            memo: "ここで知り合った大学生3人と組んで4人で\"kinku.me\"を開発した。"
         },
         {
-          color: 'pink',
-          year: '1980',
-        },
-        {
-          color: 'amber',
-          year: '1990',
-        },
-        {
-          color: 'orange',
-          year: '2000',
-        },
-      ],
+            title: "SECCON2020参加",
+            subtitle: "Online CTF",
+            timeStamp: "2019-10-10,11",
+            memo: "CTF初参加。全く解けなかった（でも楽しかった）。"
+        }
+    ],
     };
   }
 })
