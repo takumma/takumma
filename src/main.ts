@@ -3,6 +3,9 @@ import App from './App.vue'
 import './registerServiceWorker'
 import router from './router'
 import vuetify from './plugins/vuetify';
+import LightTimeline from 'vue-light-timeline';
+
+Vue.use(LightTimeline);
 
 Vue.config.productionTip = false
 
