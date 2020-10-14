@@ -1,5 +1,5 @@
 <template>
-  <div class="home text-center mt-12">
+  <div class="home text-center mt-12 px-8">
     
     <title-text title="PROFILES"/>
     <profile
