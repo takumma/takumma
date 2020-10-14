@@ -16,7 +16,7 @@
 							:class="index == 0 ? 'ml-6' : 'ml-2'"
 						/>
 				</v-list-item-title>
-				<v-list-item-subtitle class="wrap-text text-body-1 mr-3 mb-3 ml-6 font-weight-black">
+				<v-list-item-subtitle class="wrap-text text-body-1 mr-3 mb-3 ml-6 font-weight-bold">
 					{{ memo }}
 				</v-list-item-subtitle>
 			</v-list-item-content>

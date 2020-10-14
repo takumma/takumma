@@ -13,14 +13,14 @@
             v-text="activity.time_stamp"
           ></span>
         </template>
-        <div class="py-4">
-          <h3 class="font-weight-light mb-4">
+        <v-card class="pa-4">
+          <v-card-title class="font-weight-regular">
             {{ activity.title }}
-          </h3>
+          </v-card-title>
           <div>
             {{ activity.memo }}
           </div>
-        </div>
+        </v-card>
       </v-timeline-item>
     </v-timeline>
   </div>
