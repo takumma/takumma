@@ -4,7 +4,7 @@
         {{ title }}:
       </v-list-item-title>
       <div
-        class="text-h5"
+        class="text-h6"
         v-for="value in values"
         :key="value"
       >

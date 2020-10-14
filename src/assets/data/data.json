@@ -1,12 +1,11 @@
 {
     "profiles": [
         {
-            "name": "NICKNAME",
-            "values": ["takumma"]
-        },
-        {
-            "name": "REAL-NAME",
-            "values": ["市川 拓磨"]
+            "name": "NAME",
+            "values": [
+                "市川拓磨",
+                "(takumma)"
+            ]
         },
         {
             "name": "BIRTHDAY",
