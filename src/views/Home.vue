@@ -3,23 +3,23 @@
     
     <title-text title="PROFILES"/>
     <profile
-      class="mb-12"
+      class="mb-12 mt-4"
       :profiles="data.profiles"
     />
     <title-text title="SKILLS"/>
     <skill-list
-      class="mb-12"
+      class="mb-12 mt-4"
       :skills="data.skills"
     />
     <title-text title="PRODUCTS"/>
     <product-list
-    class="mb-12"
+    class="mb-12 mt-4"
       :products="data.products.products"
       :others="data.products.others"
     />
     <title-text title="ACTIVITIES"/>
     <timeline
-      class="mb-12"
+      class="mb-12 mt-4"
       :activities="data.activities"
     />
   </div>
