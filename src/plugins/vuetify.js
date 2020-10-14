@@ -10,7 +10,7 @@ export default new Vuetify({
     themes: {
       light: {
         hojichaLatte: '#C4A169',
-        chocorate: '#583819',
+        chocolate: '#583819',
         softBlack: '#555555',
         accent: colors.cyan.accent1,
       }

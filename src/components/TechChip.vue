@@ -1,6 +1,6 @@
 <template>
   <v-chip
-    class="ml-2 my-auto chocorate chocorate--text"
+    class="ml-2 my-auto chocolate chocolate--text"
     outlined
   >
     <v-icon :class="$vuetify.breakpoint.xs ? '' : 'mr-1'">{{ tech.icon }}</v-icon>

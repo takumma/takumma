@@ -7,7 +7,7 @@
 	>
 		<v-list-item>
 			<v-list-item-content class="text-left">
-				<v-list-item-title class="text-h4 chocorate--text mb-4 d-inline-flex">
+				<v-list-item-title class="text-h4 chocolate--text mb-4 d-inline-flex">
 					{{ name }}
 						<tech-chip
 							v-for="(tech, index) in techs"
@@ -16,7 +16,7 @@
 							:class="index == 0 ? 'ml-6' : 'ml-2'"
 						/>
 				</v-list-item-title>
-				<v-list-item-subtitle class="wrap-text text-body-1 mr-3 mb-3 ml-6 font-weight-black">
+				<v-list-item-subtitle class="wrap-text text-body-1 mr-3 mb-3 ml-6 font-weight-bold">
 					{{ memo }}
 				</v-list-item-subtitle>
 			</v-list-item-content>

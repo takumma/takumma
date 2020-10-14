@@ -1,12 +1,12 @@
 <template>
 	<v-btn
 			text
-			color="chocorate"
+			color="chocolate"
 			:href="url"
 		>
 			<v-icon
 				class="mr-1"
-				color="chocorate"
+				color="chocolate"
 			>
 				{{ icon }}
 			</v-icon>

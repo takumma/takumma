@@ -1,23 +1,27 @@
 <template>
-  <div class="home text-center mt-12">
+  <div class="home text-center mt-12 px-8">
     
     <title-text title="PROFILES"/>
     <profile
-      class="mb-8"
+      class="mb-12 mt-4"
       :profiles="data.profiles"
     />
     <title-text title="SKILLS"/>
     <skill-list
-      class="mb-8"
+      class="mb-12 mt-4"
       :skills="data.skills"
     />
     <title-text title="PRODUCTS"/>
     <product-list
+    class="mb-12 mt-4"
       :products="data.products.products"
       :others="data.products.others"
     />
     <title-text title="ACTIVITIES"/>
-    <timeline/>
+    <timeline
+      class="mb-12 mt-4"
+      :activities="data.activities"
+    />
   </div>
 </template>
 
