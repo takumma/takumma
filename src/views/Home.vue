@@ -26,7 +26,7 @@
 </template>
 
 <script lang='ts'>
-import Vue from 'vue';
+import { Component, Vue } from 'vue-property-decorator';
 import TitleText from '../components/TitleText.vue';
 import Profile from '../components/Profile.vue';
 import SkillList from '../components/SkillList.vue';
@@ -34,19 +34,16 @@ import ProductList from '../components/ProductList.vue';
 import Timeline from '../components/Timeline.vue';
 import data from '../assets/data/data.json';
 
-export default Vue.extend({
-  name: 'Home',
+@Component({
   components: {
     TitleText,
     Profile,
     SkillList,
     ProductList,
     Timeline,
-  },
-  data() {
-    return {
-      data: data,
-    }
-  },
+  }
 })
+export default class Home extends Vue{
+  data: any = data;
+}
 </script>
