@@ -17,7 +17,7 @@
       :others="data.products.others"
     />
     <title-text title="ACTIVITIES"/>
-    <timeline/>
+    <timeline :activities="data.activities"/>
   </div>
 </template>
 

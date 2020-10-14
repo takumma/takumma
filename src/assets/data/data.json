@@ -169,23 +169,20 @@
     "activities": [
         {
             "title": "パソコン甲子園2019モバイル部門本戦出場",
-            "subtitle": "会津大学主催のAndroidアプリケーションコンテスト",
-            "time-stamp": "",
-            "memo": "友達2人と3人チームでAndroidアプリ\"TABINOW\"を開発した。"
+            "time_stamp": "2019/11/12",
+            "memo": "会津大学主催のAndroidアプリコンテスト。友達2人と3人で出場し、Androidアプリ\"TABINOW\"を開発した。"
         },
         {
             "title": "CCCu22参加",
-            "subtitle": "Code for Japan主催のHackathon",
-            "time-stamp": "",
-            "memo": "ここで知り合った大学生3人と組んで4人で\"kinku.me\"を開発した。"
+            "time_stamp": "2020/9",
+            "memo": "Code for Japan主催のHackathon。ここで知り合った大学生3人と組んで4人で\"kinku.me\"を開発した。"
         },
         {
             "title": "SECCON2020参加",
-            "subtitle": "Online CTF",
-            "time-stamp": "",
-            "memo": "CTF初参加。全く解けなかった（でも楽しかった）。"
+            "time_Stamp": "2019/10/10-11",
+            "memo": "Online CTF。CTF初参加。全く解けなかった（でも楽しかった）。"
         }
-    ],
+      ],
     "links": {
         "github": "https://github.com/takumma",
         "twitter": "https://twitter.com/tak_kum_ma"
