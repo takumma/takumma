@@ -12,20 +12,18 @@
 </template>
 
 <script lang='ts'>
-import Vue from 'vue';
-import 'normalize.css'
-import ToolBar from './components/ToolBar.vue'
+import { Component, Vue } from 'vue-property-decorator';
+import 'normalize.css';
+import ToolBar from './components/ToolBar.vue';
 
-export default Vue.extend({
+@Component({
   components: {
     ToolBar,
   },
-  data() {
-    return {
-      userName: 'takumma',
-      AppBarMainColor: 'hojichaLatte',
-      AppBarContentsColor: 'white'
-    }
-  }
-});
+})
+export default class App extends Vue {
+  userName = 'takumma';
+  AppBarMainColor = 'hojichaLatte';
+  AppBarContentsColor = 'white';
+}
 </script>

@@ -15,14 +15,16 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import { Component, Prop, Vue } from 'vue-property-decorator';
 import ProfileListItem from '../components/ProfileListItem.vue';
-export default Vue.extend({
+
+@Component({
   components: {
     ProfileListItem,
-  },
-  props: {
-    profiles: Array,
-  },
+  }
 })
+export default class Profile extends Vue{
+  @Prop(Array)
+  readonly profiles!: any
+}
 </script>
