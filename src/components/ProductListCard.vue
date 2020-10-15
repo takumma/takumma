@@ -31,22 +31,26 @@
 </template>
 
 <script lang='ts'>
-import Vue from 'vue';
+import { Component, Prop, Vue } from 'vue-property-decorator';
 import TechChip from '../components/TechChip.vue';
 import TextButtonToggle from '../components/TextButtonToggle.vue';
 
-export default Vue.extend({
-	props: {
-		name: String,
-		techs: Array,
-		memo: String,
-		links: Array,
-	},
+@Component({
 	components: {
 		TechChip,
 		TextButtonToggle,
-	}
-});
+	},
+})
+export default class SkillList extends Vue{	
+	@Prop(String)
+	readonly name!: string;
+	@Prop()
+	techs!: any;
+	@Prop(String)
+	readonly memo!: string;
+	@Prop()
+	links!: any;
+};
 </script>
 
 <style scoped>
