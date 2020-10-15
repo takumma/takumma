@@ -15,12 +15,13 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-export default Vue.extend({
-	props: {
-		icon: String,
-		btnText: String,
-		url: String,
-	}
-})
+import { Component, Prop, Vue } from 'vue-property-decorator';
+
+@Component
+export default class TextButton extends Vue{
+	@Prop()
+  readonly icon!: string;
+	readonly btnText!: string;
+	readonly url!: string;
+}
 </script>

@@ -12,15 +12,16 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import { Component, Prop, Vue } from 'vue-property-decorator';
 import TextButton from '../components/TextButton.vue'
 
-export default Vue.extend({
-	props: {
-		links: Array,
-	},
+@Component({
 	components: {
 		TextButton,
 	}
 })
+export default class TextButtonToggle extends Vue{
+	@Prop()
+	readonly links: any;	
+}
 </script>

@@ -9,10 +9,12 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-export default Vue.extend({
-  props: {
-    tech: Object,
-  },
-})
+import { Component, Prop, Vue } from 'vue-property-decorator';
+
+@Component
+export default class TechChip extends Vue{
+  @Prop()
+  readonly tech!: any;
+  
+}
 </script>
