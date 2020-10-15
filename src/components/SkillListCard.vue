@@ -22,13 +22,15 @@
 </template>
 
 <script lang='ts'>
-import Vue from 'vue';
+import { Component, Prop, Vue } from 'vue-property-decorator';
 
-export default Vue.extend({
-	props: {
-		skill: String,
-		icon: String,
-		color: String
-	}
-});
+@Component
+export default class SkillListCard extends Vue{
+	@Prop(String)
+	readonly skill!: string;
+	@Prop(String)
+	readonly icon!: string;
+	@Prop(String)
+	readonly color!: string;
+}
 </script>
