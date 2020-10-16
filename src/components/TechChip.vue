@@ -11,10 +11,14 @@
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
 
+interface Tech {
+	icon: string;
+	name: string;
+}
+
 @Component
 export default class TechChip extends Vue{
   @Prop()
-  readonly tech!: any;
-  
+  readonly tech!: Tech;
 }
 </script>

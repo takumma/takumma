@@ -35,6 +35,11 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 import TechChip from '../components/TechChip.vue';
 import TextButtonToggle from '../components/TextButtonToggle.vue';
 
+interface Tech {
+	icon: string;
+	name: string;
+}
+
 @Component({
 	components: {
 		TechChip,
@@ -45,7 +50,7 @@ export default class SkillList extends Vue{
 	@Prop(String)
 	readonly name!: string;
 	@Prop()
-	techs!: any;
+	techs!: Tech[];
 	@Prop(String)
 	readonly memo!: string;
 	@Prop()
