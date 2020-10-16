@@ -50,7 +50,7 @@ export default class SkillList extends Vue{
 	readonly memo!: string;
 	@Prop()
 	links!: any;
-};
+}
 </script>
 
 <style scoped>
