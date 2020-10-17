@@ -40,6 +40,12 @@ interface Tech {
 	name: string;
 }
 
+interface Link {
+	name: string;
+	icon: string;
+	url: string;
+}
+
 @Component({
 	components: {
 		TechChip,
@@ -54,7 +60,7 @@ export default class SkillList extends Vue{
 	@Prop(String)
 	readonly memo!: string;
 	@Prop()
-	links!: any;
+	links!: Link[];
 }
 </script>
 

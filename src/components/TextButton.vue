@@ -2,26 +2,30 @@
 	<v-btn
 			text
 			color="chocolate"
-			:href="url"
+			:href="link.url"
 		>
 			<v-icon
 				class="mr-1"
 				color="chocolate"
 			>
-				{{ icon }}
+				{{ link.icon }}
 			</v-icon>
-			{{ btnText }}
+			{{ link.name }}
 		</v-btn>
 </template>
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
 
+interface Link {
+	name: string;
+	icon: string;
+	url: string;
+}
+
 @Component
 export default class TextButton extends Vue{
 	@Prop()
-  readonly icon!: string;
-	readonly btnText!: string;
-	readonly url!: string;
+  readonly link!: Link;
 }
 </script>
