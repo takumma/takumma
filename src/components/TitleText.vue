@@ -3,10 +3,11 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-export default Vue.extend({
-  props: {
-    title: String,
-  }
-})
+import { Component, Prop, Vue } from 'vue-property-decorator';
+
+@Component
+export default class TitleText extends Vue{
+  @Prop(String)
+  readonly title!: string;
+}
 </script>

@@ -7,13 +7,15 @@
 </template>
 
 <script lang='ts'>
-import Vue from 'vue';
+import { Component, Prop, Vue } from 'vue-property-decorator';
 
-export default Vue.extend({
-  props: {
-    userName: String,
-    mainColor: String,
-    contentsColor: String,
-  }
-});
+@Component
+export default class ToolBar extends Vue{
+  @Prop(String)
+  readonly userName!: string
+  @Prop(String)
+  readonly mainColor!: string
+  @Prop(String)
+  readonly contentsColor!: string
+}
 </script>

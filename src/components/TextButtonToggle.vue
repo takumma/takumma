@@ -4,23 +4,28 @@
 			class="mr-4"
 			v-for="link in links"
 			:key="link.name"
-			:btnText="link.name"
-			:icon="link.icon"
-			:url="link.url"
+			:link="link"
 		/>
 	</v-btn-toggle>
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import { Component, Prop, Vue } from 'vue-property-decorator';
 import TextButton from '../components/TextButton.vue'
 
-export default Vue.extend({
-	props: {
-		links: Array,
-	},
+interface Link {
+	name: string;
+	icon: string;
+	url: string;
+}
+
+@Component({
 	components: {
 		TextButton,
 	}
 })
+export default class TextButtonToggle extends Vue{
+	@Prop()
+	readonly links!: Link[];	
+}
 </script>

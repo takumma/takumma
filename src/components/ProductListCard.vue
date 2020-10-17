@@ -31,22 +31,37 @@
 </template>
 
 <script lang='ts'>
-import Vue from 'vue';
+import { Component, Prop, Vue } from 'vue-property-decorator';
 import TechChip from '../components/TechChip.vue';
 import TextButtonToggle from '../components/TextButtonToggle.vue';
 
-export default Vue.extend({
-	props: {
-		name: String,
-		techs: Array,
-		memo: String,
-		links: Array,
-	},
+interface Tech {
+	icon: string;
+	name: string;
+}
+
+interface Link {
+	name: string;
+	icon: string;
+	url: string;
+}
+
+@Component({
 	components: {
 		TechChip,
 		TextButtonToggle,
-	}
-});
+	},
+})
+export default class SkillList extends Vue{	
+	@Prop(String)
+	readonly name!: string;
+	@Prop()
+	techs!: Tech[];
+	@Prop(String)
+	readonly memo!: string;
+	@Prop()
+	links!: Link[];
+}
 </script>
 
 <style scoped>

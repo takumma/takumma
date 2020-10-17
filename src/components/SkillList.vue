@@ -24,15 +24,16 @@
 </template>
 
 <script lang='ts'>
-import Vue from 'vue';
+import { Component, Prop, Vue } from 'vue-property-decorator';
 import SkillListCard from '../components/SkillListCard.vue';
 
-export default Vue.extend({
+@Component({
   components: {
     SkillListCard,
-  },
-  props: {
-    skills: Array,
-  },
+  }
 })
+export default class SkillList extends Vue{
+  @Prop()
+  readonly skills: any;
+}
 </script>

@@ -14,13 +14,15 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-export default Vue.extend({
-  props: {
-    title: String,
-    values: Array,
-  }
-})
+import { Component, Prop, Vue } from 'vue-property-decorator';
+
+@Component
+export default class SkillList extends Vue{
+  @Prop(String)
+  readonly title!: String
+  @Prop()
+  readonly values!: any
+}
 </script>
 
 <style scoped>

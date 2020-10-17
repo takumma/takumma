@@ -19,16 +19,17 @@
 </template>
 
 <script lang='ts'>
-import Vue from 'vue';
+import { Component, Prop, Vue } from 'vue-property-decorator';
 import ProductListCard from '../components/ProductListCard.vue';
 
-export default Vue.extend({
+@Component({
 	components: {
 		ProductListCard,
 	},
-	props: {
-			products: Array,
-			others: Array,
-	}
 })
+export default class SkillList extends Vue{	
+	@Prop()
+	products: any;
+	others: any;
+}
 </script>

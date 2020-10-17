@@ -28,10 +28,11 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-export default Vue.extend({
-  props: {
-    activities: Array
-  }
-})
+import { Component, Prop, Vue } from 'vue-property-decorator';
+
+@Component
+export default class Timeline extends Vue{
+  @Prop(Array)
+  readonly activities!: any
+}
 </script>
