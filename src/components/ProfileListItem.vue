@@ -19,7 +19,7 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 @Component
 export default class SkillList extends Vue{
   @Prop(String)
-  readonly title!: String
+  readonly title!: string
   @Prop()
   readonly values!: any
 }
