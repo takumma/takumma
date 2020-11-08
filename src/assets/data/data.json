@@ -94,6 +94,40 @@
                 ],
                 "links": [],
                 "memo": "CCCu22で作ったハラスメントに関するWebアプリケーション"
+            },
+            {
+                "name": "Fulfill",
+                "techs": [
+                    {
+                        "name": "Vue.js",
+                        "icon": "mdi-vuejs"
+                    },
+                    {
+                        "name": "ionic",
+                        "icon": "code"
+                    },
+                    {
+                        "name": "Typescript",
+                        "icon": "mdi-language-typescript"
+                    },
+                    {
+                        "name": "firebase",
+                        "icon": "mdi-firebase"
+                    }
+                ],
+                "links": [
+                    {
+                        "name": "GITHUB",
+                        "icon": "mdi-github",
+                        "url": "https://github.com/jphacks/C_2006"
+                    },
+                    {
+                        "name": "SITE URL",
+                        "icon": "mdi-link",
+                        "url": "https://c-2006.firebaseapp.com/"
+                    }
+                ],
+                "memo": "JPHACKS2020で開発したおうち時間を共有するアプリ。Vue3 × ionicでWeb/mobile(android)アプリとして開発した。"
             }
         ],
         "others": [
@@ -177,6 +211,12 @@
             "icon": "code",
             "time_stamp": "2020/9",
             "memo": "Code for Japan主催のHackathon。ここで知り合った大学生3人と組んで4人で\"kinku.me\"を開発した。"
+        },
+        {
+            "title": "JPHACKS2020参加",
+            "icon": "code",
+            "time_stamp": "2020/10/31~11/07",
+            "memo": "onlineハッカソン。同級生3人と参加して\"Fulfill\"を作った。"
         }
       ],
     "links": {
