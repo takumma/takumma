@@ -1,6 +1,9 @@
 <template>
   <div class="timeline">
-    <v-timeline :dense="windowSize.x <= 400">
+    <v-timeline
+      v-resize="onResize"
+      :dense="windowSize.x <= 600"
+    >
       <v-timeline-item
         v-for="(activity, i) in activities"
         :key="i"
@@ -8,7 +11,7 @@
         :icon="activity.icon"
         fill-dot
       >
-        <template v-if="windowSize.x > 400" v-slot:opposite>
+        <template v-if="windowSize.x > 600" v-slot:opposite>
           <span
             class="chocolate--text text-body-1"
             v-text="activity.time_stamp"
