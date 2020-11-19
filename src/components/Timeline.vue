@@ -2,7 +2,7 @@
   <div class="timeline">
     <v-timeline
       v-resize="onResize"
-      :dense="windowSize.x <= 600"
+      :dense="$vuetify.breakpoint.xs"
     >
       <v-timeline-item
         v-for="(activity, i) in activities"
@@ -11,7 +11,7 @@
         :icon="activity.icon"
         fill-dot
       >
-        <template v-if="windowSize.x > 600" v-slot:opposite>
+        <template v-if="!$vuetify.breakpoint.xs" v-slot:opposite>
           <span
             class="chocolate--text text-body-1"
             v-text="activity.time_stamp"
@@ -37,18 +37,5 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 export default class Timeline extends Vue{
   @Prop(Array)
   readonly activities!: any
-
-  windowSize: object =  {
-    x: 0,
-    y: 0,
-  }
-
-  onResize() {
-    this.windowSize = { x: window.innerWidth, y: window.innerHeight };
-  }
-
-  mounted() {
-    this.onResize();
-  }
 }
 </script>
