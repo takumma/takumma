@@ -129,74 +129,58 @@
                 ],
                 "memo": "JPHACKS2020で開発したおうち時間を共有するアプリ。Vue3 × ionicでWeb/mobile(android)アプリとして開発した。"
             }
-        ],
-        "others": [
-            {
-                "name": "portfolio",
-                "memo": "このサイト"
-            }
         ]
     },
     "skills": [
         {
             "name": "C++",
             "icon": "mdi-language-cpp",
-            "color": "blue",
-            "memo": "学校の授業等で学習した。"
+            "color": "blue"
         },
         {
             "name": "JavaScript",
             "icon": "mdi-language-javascript",
-            "color": "yellow",
-            "memo": "主にVue.jsを用いたWebアプリ開発に使用。"
+            "color": "yellow"
         },
         {
             "name": "Kotlin",
             "icon": "mdi-language-kotlin",
-            "color": "purple",
-            "memo": "Androidアプリを開発して、コンテストに出場した。"
+            "color": "purple"
         },
         {
             "name": "Dart",
             "icon": "code",
-            "color": "blue",
-            "memo": "Flutterを勉強中。"
+            "color": "blue"
         },
         {
             "name": "Typescript",
             "icon": "mdi-language-typescript",
-            "color": "black",
-            "memo": "勉強中。JSのが好きだったりもする。僕は型がなくても死にません。"
+            "color": "black"
         },
         {
             "name": "Python",
             "icon": "mdi-language-python",
-            "color": "blue",
-            "memo": "ちょっと書ける。ちょっと。"
+            "color": "blue"
         },
         {
             "name": "Vue.js",
             "icon": "mdi-vuejs",
-            "color": "green",
-            "memo": "Webアプリ開発をするときは大体Vueを使用しています。"
+            "color": "green"
         },
         {
             "name": "Flutter",
             "icon": "code",
-            "color": "cyan",
-            "memo": "勉強中です。"
+            "color": "cyan"
         },
         {
             "name": "Android",
             "icon": "android",
-            "color": "green",
-            "memo": "kotlinを用いた開発経験アリ"
+            "color": "green"
         },
         {
             "name": "Git(Github)",
             "icon": "mdi-github",
-            "color": "black",
-            "memo": "それなりに"
+            "color": "black"
         }
     ],
     "activities": [
