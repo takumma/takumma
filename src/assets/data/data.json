@@ -203,8 +203,16 @@
             "memo": "onlineハッカソン。同級生3人と参加して\"Fulfill\"を作った。"
         }
       ],
-    "links": {
-        "github": "https://github.com/takumma",
-        "twitter": "https://twitter.com/tak_kum_ma"
-    }
+    "links": [
+        {
+            "icon": "mdi-github",
+            "color": "cyan",
+            "url": "https://github.com/takumma"
+        },
+        {
+            "icon": "mdi-twitter",
+            "color": "black",
+            "url": "https://twitter.com/tak_kum_ma"
+        }
+    ]
 }
