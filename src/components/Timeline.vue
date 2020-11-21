@@ -33,9 +33,16 @@
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
 
+interface Activity {
+  title: string;
+  icon: string;
+  time_stamp: string;
+  memo: string;
+}
+
 @Component
 export default class Timeline extends Vue{
   @Prop(Array)
-  readonly activities!: any
+  readonly activities!: Array<Activity>
 }
 </script>
