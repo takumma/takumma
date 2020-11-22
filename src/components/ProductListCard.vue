@@ -35,6 +35,7 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 import TechChip from '../components/TechChip.vue';
 import TextButtonToggle from '../components/TextButtonToggle.vue';
 
+
 interface Tech {
 	icon: string;
 	name: string;
@@ -52,15 +53,15 @@ interface Link {
 		TextButtonToggle,
 	},
 })
-export default class SkillList extends Vue{	
+export default class ProductListCard extends Vue{	
 	@Prop(String)
 	readonly name!: string;
 	@Prop()
-	techs!: Tech[];
+	techs!: Array<Tech>;
 	@Prop(String)
 	readonly memo!: string;
 	@Prop()
-	links!: Link[];
+	links!: Array<Link>;
 }
 </script>
 

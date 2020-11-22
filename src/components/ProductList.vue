@@ -22,6 +22,26 @@
 import { Component, Prop, Vue } from 'vue-property-decorator';
 import ProductListCard from '../components/ProductListCard.vue';
 
+
+interface Product {
+	name: string;
+	techs: Array<Tech>;
+	links: Array<Link>;
+	memo: string;
+}
+
+interface Tech {
+	icon: string;
+	name: string;
+}
+
+interface Link {
+	icon: string;
+  color: string;
+  url: string;
+}
+
+
 @Component({
 	components: {
 		ProductListCard,
@@ -29,7 +49,6 @@ import ProductListCard from '../components/ProductListCard.vue';
 })
 export default class SkillList extends Vue{	
 	@Prop()
-	products: any;
-	others: any;
+	products!: Array<Product>;
 }
 </script>

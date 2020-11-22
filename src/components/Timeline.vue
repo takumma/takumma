@@ -1,7 +1,6 @@
 <template>
   <div class="timeline">
     <v-timeline
-      v-resize="onResize"
       :dense="$vuetify.breakpoint.xs"
     >
       <v-timeline-item
