@@ -7,14 +7,14 @@
 			:elevation="hover ? 8 : 2"
 		>
 			<v-card-title class="justify-center text-no-wrap chocolate--text">
-				{{ skill }}
+				{{ skill.name }}
 			</v-card-title>
 			<v-layout class="justify-center">
 				<v-icon
 					size="64"
-					:color="hover ? color : 'softBlack'"
+					:color="hover ? skill.color : 'softBlack'"
 				>
-					{{ icon }}
+					{{ skill.icon }}
 				</v-icon>	
 			</v-layout>
 		</v-card>
@@ -24,13 +24,15 @@
 <script lang='ts'>
 import { Component, Prop, Vue } from 'vue-property-decorator';
 
+interface Skill {
+  name: string;
+  icon: string;
+  color: string;
+}
+
 @Component
 export default class SkillListCard extends Vue{
 	@Prop(String)
-	readonly skill!: string;
-	@Prop(String)
-	readonly icon!: string;
-	@Prop(String)
-	readonly color!: string;
+	readonly skill!: Skill;
 }
 </script>
