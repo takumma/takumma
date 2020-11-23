@@ -1,11 +1,11 @@
 <template>
     <v-list-item-content>
       <v-list-item-title class="wrap-text text-h5 chocolate--text font-weight-bold">
-        {{ title }}:
+        {{ item.name }}:
       </v-list-item-title>
       <div
         class="text-h6 font-weight-regular"
-        v-for="value in values"
+        v-for="value in item.values"
         :key="value"
       >
         {{ value }}
@@ -16,12 +16,15 @@
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
 
+interface ProfileItem {
+  name: string;
+  values: Array<string>;
+}
+
 @Component
-export default class SkillList extends Vue{
-  @Prop(String)
-  readonly title!: string
+export default class ProfileListItem extends Vue{
   @Prop()
-  readonly values!: any
+  readonly item!: ProfileItem
 }
 </script>
 
