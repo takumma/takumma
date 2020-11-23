@@ -7,12 +7,7 @@
 				:key="product.name"
 				class="pa-3 justify-center"
 			>
-				<product-list-card
-					:name="product.name"
-					:techs="product.techs"
-					:memo="product.memo"
-					:links="product.links"
-				/>
+				<product-list-card :product="product"/>
 			</v-list-item>
 		</v-list>
 	</div>
