@@ -1,7 +1,7 @@
 <template>
-  <v-app-bar app :color="mainColor">
+  <v-app-bar app color="hojichaLatte">
     
-    <v-toolbar-title :class="contentsColor+'--text text-h5'">{{ userName }}</v-toolbar-title>
+    <v-toolbar-title class="white--text text-h5">takumma</v-toolbar-title>
 
   </v-app-bar>
 </template>
@@ -11,11 +11,5 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 
 @Component
 export default class ToolBar extends Vue{
-  @Prop(String)
-  readonly userName!: string
-  @Prop(String)
-  readonly mainColor!: string
-  @Prop(String)
-  readonly contentsColor!: string
 }
 </script>

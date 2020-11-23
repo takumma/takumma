@@ -32,7 +32,7 @@ interface Skill {
 
 @Component
 export default class SkillListCard extends Vue{
-	@Prop(String)
+	@Prop()
 	readonly skill!: Skill;
 }
 </script>
