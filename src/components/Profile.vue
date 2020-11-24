@@ -5,10 +5,7 @@
         v-for="item in profiles"
         :key="item.name"
       >
-        <profile-list-item
-          :title="item.name"
-          :values="item.values"
-        />
+        <profile-list-item :item="item"/>
       </v-list-item>
     </v-list>
   </div>
@@ -18,6 +15,11 @@
 import { Component, Prop, Vue } from 'vue-property-decorator';
 import ProfileListItem from '../components/ProfileListItem.vue';
 
+interface ProfileItem {
+  name: string;
+  values: Array<string>;
+}
+
 @Component({
   components: {
     ProfileListItem,
@@ -25,6 +27,6 @@ import ProfileListItem from '../components/ProfileListItem.vue';
 })
 export default class Profile extends Vue{
   @Prop(Array)
-  readonly profiles!: any
+  readonly profiles!: Array<ProfileItem>
 }
 </script>

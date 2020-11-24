@@ -1,10 +1,6 @@
 <template>
   <v-app id="app">
-    <tool-bar
-      :userName="userName"
-      :mainColor="AppBarMainColor"
-      :contentsColor="AppBarContentsColor"
-    />
+    <tool-bar/>
     <v-main>
       <router-view/>
     </v-main>
@@ -22,8 +18,5 @@ import ToolBar from './components/ToolBar.vue';
   },
 })
 export default class App extends Vue {
-  userName = 'takumma';
-  AppBarMainColor = 'hojichaLatte';
-  AppBarContentsColor = 'white';
 }
 </script>

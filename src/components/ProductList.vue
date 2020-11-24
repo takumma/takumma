@@ -7,12 +7,7 @@
 				:key="product.name"
 				class="pa-3 justify-center"
 			>
-				<product-list-card
-					:name="product.name"
-					:techs="product.techs"
-					:memo="product.memo"
-					:links="product.links"
-				/>
+				<product-list-card :product="product"/>
 			</v-list-item>
 		</v-list>
 	</div>
@@ -22,6 +17,26 @@
 import { Component, Prop, Vue } from 'vue-property-decorator';
 import ProductListCard from '../components/ProductListCard.vue';
 
+
+interface Product {
+	name: string;
+	techs: Array<Tech>;
+	links: Array<Link>;
+	memo: string;
+}
+
+interface Tech {
+	icon: string;
+	name: string;
+}
+
+interface Link {
+	icon: string;
+  color: string;
+  url: string;
+}
+
+
 @Component({
 	components: {
 		ProductListCard,
@@ -29,7 +44,6 @@ import ProductListCard from '../components/ProductListCard.vue';
 })
 export default class SkillList extends Vue{	
 	@Prop()
-	products: any;
-	others: any;
+	products!: Array<Product>;
 }
 </script>

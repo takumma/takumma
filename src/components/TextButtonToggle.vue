@@ -26,6 +26,6 @@ interface Link {
 })
 export default class TextButtonToggle extends Vue{
 	@Prop()
-	readonly links!: Link[];	
+	readonly links!: Array<Link>;	
 }
 </script>

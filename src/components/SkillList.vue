@@ -12,11 +12,7 @@
           :key="skill.name"
           align="center"
         >
-          <skill-list-card
-            :skill="skill.name"
-            :icon="skill.icon"
-            :color="skill.color"
-          />
+          <skill-list-card :skill="skill"/>
         </v-col>
       </v-row>
     </v-container>
@@ -27,6 +23,12 @@
 import { Component, Prop, Vue } from 'vue-property-decorator';
 import SkillListCard from '../components/SkillListCard.vue';
 
+interface Skill {
+  name: string;
+  icon: string;
+  color: string;
+}
+
 @Component({
   components: {
     SkillListCard,
@@ -34,6 +36,6 @@ import SkillListCard from '../components/SkillListCard.vue';
 })
 export default class SkillList extends Vue{
   @Prop()
-  readonly skills: any;
+  readonly skills!: Array<Skill>;
 }
 </script>

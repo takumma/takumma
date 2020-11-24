@@ -1,19 +1,14 @@
 import Vue from 'vue';
 import Vuetify from 'vuetify/lib';
-import { colors } from 'vuetify/lib';
 import 'material-design-icons-iconfont/dist/material-design-icons.css';
+import { themes } from './themes.js';
 
 Vue.use(Vuetify);
 
 export default new Vuetify({
   theme: {
     themes: {
-      light: {
-        hojichaLatte: '#C4A169',
-        chocolate: '#583819',
-        softBlack: '#555555',
-        accent: colors.cyan.accent1,
-      }
+      light: themes.default,
     }
   },
   icons: {
