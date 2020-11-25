@@ -17,7 +17,8 @@ export const themes = {
                 softBlack: '#555555',
                 accent: colors.cyan.accent1,
             }
-        },{
+        },
+        {
             eventName: "Halloween",
             timeStamp: '10/31',
             colors: {
@@ -28,4 +29,14 @@ export const themes = {
             }
         },
     ]
+}
+
+
+export function getEventOrDefaultTheme() {
+    const today = '';
+    const isEvent = themes.events.find((event) => event.timeStamp === today);
+    if(isEvent) {
+        return isEvent;
+    }
+    return themes.default;
 }
