@@ -33,7 +33,7 @@ export const themes = {
 
 
 export function getEventOrDefaultTheme() {
-    const today = new Date('2020-12-25');
+    const today = new Date();
     const isEvent = themes.events.find((event) => {
         const eventDay = new Date(event.timeStamp);
         return eventDay.getMonth() === today.getMonth()
