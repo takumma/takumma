@@ -12,10 +12,10 @@ export const themes = {
             eventName: "Xmas",
             timeStamp: "2020-12-25",
             colors: {
-                hojichaLatte: '#C4A169',
-                chocolate: '#583819',
-                softBlack: '#555555',
-                accent: colors.cyan.accent1,
+                hojichaLatte: '#33743B',
+                chocolate: '#C92629',
+                softBlack: '#5B362C',
+                accent: '#9F863F',
             }
         },
         {
@@ -33,7 +33,7 @@ export const themes = {
 
 
 export function getEventOrDefaultTheme() {
-    const today = new Date();
+    const today = new Date('2020-12-25');
     const isEvent = themes.events.find((event) => {
         const eventDay = new Date(event.timeStamp);
         return eventDay.getMonth() === today.getMonth()
