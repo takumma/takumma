@@ -15,7 +15,6 @@
     <product-list
     class="mb-12 mt-4"
       :products="data.products.products"
-      :others="data.products.others"
     />
     <title-text title="ACTIVITIES"/>
     <timeline

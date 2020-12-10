@@ -36,7 +36,7 @@ export function getThemeByEvent() {
     const todaysEvent = events.find((event) => {
         const eventDay = new Date(event.timeStamp);
         return eventDay.getMonth() === today.getMonth()
-            || eventDay.getDate() === today.getDate();
+            && eventDay.getDate() === today.getDate();
     });
     if(todaysEvent) {
         return todaysEvent.colors;
