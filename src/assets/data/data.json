@@ -93,7 +93,7 @@
                     }
                 ],
                 "links": [],
-                "memo": "CCCu22で作ったハラスメントに関するWebアプリケーション"
+                "memo": "CCCu22で作ったハラスメントに関するWebアプリケーション。初対面の大学生3人と開発をした。"
             },
             {
                 "name": "Fulfill",
@@ -128,6 +128,32 @@
                     }
                 ],
                 "memo": "JPHACKS2020で開発したおうち時間を共有するアプリ。Vue3 × ionicでWeb/mobile(android)アプリとして開発した。"
+            },
+            {
+                "name": "PowerPoint-Karaoke-Web",
+                "techs": [
+                    {
+                        "name": "React",
+                        "icon": "mdi-react"
+                    },
+                    {
+                        "name": "TypeScript",
+                        "icon": "mdi-language-typescript"
+                    }
+                ],
+                "links": [
+                    {
+                        "name": "GITHUB",
+                        "icon": "mdi-github",
+                        "url": "https://github.com/takumma/powerpoint-karaoke-web"
+                    },
+                    {
+                        "name": "SITE URL",
+                        "icon": "mdi-link",
+                        "url": "https://takumma.github.io/powerpoint-karaoke-web/"
+                    }
+                ],
+                "memo": "パワポカラオケができるサイト"
             }
         ]
     },
