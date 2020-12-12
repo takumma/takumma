@@ -1,9 +1,11 @@
 <template>
-  <div
-    v-for="link in links"
-    :key="link.icon"
-  >
-    <link-button :link="link"/>
+  <div>
+    <div
+      v-for="link in links"
+      :key="link.icon"
+    >
+      <link-button :link="link"/>
+    </div>
   </div>
 </template>
 
@@ -22,6 +24,6 @@ interface Link {
 })
 export default class Links extends Vue {
   @Prop()
-  readonly links: Link[] = [];
+  readonly links!: Link[];
 }
 </script>

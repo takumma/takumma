@@ -21,6 +21,7 @@
       class="mb-12 mt-4"
       :activities="data.activities"
     />
+    <link-button-toggle :links="data.links"/>
   </div>
 </template>
 
@@ -32,9 +33,11 @@ import SkillList from '../components/SkillList.vue';
 import ProductList from '../components/ProductList.vue';
 import Timeline from '../components/Timeline.vue';
 import data from '../assets/data/data.json';
+import LinkButtonToggle from "@/components/LinkButtonToggle.vue";
 
 @Component({
   components: {
+    LinkButtonToggle,
     TitleText,
     Profile,
     SkillList,
