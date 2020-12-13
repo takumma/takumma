@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.90bdbdb94cb9c35b514bc01fd2bc045f.js"
+  "precache-manifest.26ce0b2e8d665a340772dc2b0ff4659b.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "takumma"});
