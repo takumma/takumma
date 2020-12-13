@@ -14,14 +14,18 @@
     <title-text title="PRODUCTS"/>
     <product-list
     class="mb-12 mt-4"
-      :products="data.products.products"
+      :products="data.products"
     />
     <title-text title="ACTIVITIES"/>
     <timeline
       class="mb-12 mt-4"
       :activities="data.activities"
     />
-    <link-button-toggle :links="data.links"/>
+    <title-text title="LINKS"/>
+    <link-button-toggle
+      class="mb-12 mt-4"
+      :links="data.links"
+    />
   </div>
 </template>
 

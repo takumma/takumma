@@ -9,11 +9,15 @@
         },
         {
             "name": "BIRTHDAY",
-            "values": ["2002-10-3"]
+            "values": [
+                "2002-10-3"
+            ]
         },
         {
             "name": "AGE",
-            "values": ["18"]
+            "values": [
+                "18"
+            ]
         },
         {
             "name": "BELONG",
@@ -25,138 +29,136 @@
         {
             "name": "INTERESTs",
             "values": [
-            "Rock Music",
-            "Vue.js",
-            "Flutter",
-            "Secity"
+                "Rock Music",
+                "Vue.js",
+                "Flutter",
+                "Secity"
             ]
         }
     ],
-    "products":{
-        "products": [
-            {
-                "name": "TABINOW",
-                "techs": [
-                    {
-                        "name": "kotlin",
-                        "icon": "mdi-language-kotlin"
-                    },
-                    {
-                        "name": "Android",
-                        "icon": "android"
-                    }
-                ],
-                "links": [
-                    {
-                        "name": "GITHUB",
-                        "icon": "mdi-github",
-                        "url": "https://github.com/takumma/tabinow"
-                    }
-                ],
-                "memo": "旅行計画に沿った天気予報が見られるAndroidアプリ。機械学習により、訪れる場所がその天気に適しているかを表すおすすめ度をみることができる。"
-            },
-            {
-                "name": "mask-game",
-                "techs": [
-                    {
-                        "name": "Vue.js",
-                        "icon": "mdi-vuejs"
-                    },
-                    {
-                        "name": "JavaScript",
-                        "icon": "mdi-language-javascript"
-                    }
-                ],
-                "links": [
-                    {
-                        "name": "GITHUB",
-                        "icon": "mdi-github",
-                        "url": "https://github.com/takumma/mask-game"
-                    }
-                ],
-                "memo": "コロナによる休校期間中につくったマスクをつけて遊ぶブラウザゲーム。"
-            },
-            {
-                "name": "kinku.me",
-                "techs": [
-                    {
-                        "name": "Vue.js",
-                        "icon": "mdi-vuejs"
-                    },
-                    {
-                        "name": "JavaScript",
-                        "icon": "mdi-language-javascript"
-                    },
-                    {
-                        "name": "Spring Boot",
-                        "icon": "mdi-leaf"
-                    }
-                ],
-                "links": [],
-                "memo": "CCCu22で作ったハラスメントに関するWebアプリケーション。初対面の大学生3人と開発をした。"
-            },
-            {
-                "name": "Fulfill",
-                "techs": [
-                    {
-                        "name": "Vue.js",
-                        "icon": "mdi-vuejs"
-                    },
-                    {
-                        "name": "ionic",
-                        "icon": "code"
-                    },
-                    {
-                        "name": "Typescript",
-                        "icon": "mdi-language-typescript"
-                    },
-                    {
-                        "name": "firebase",
-                        "icon": "mdi-firebase"
-                    }
-                ],
-                "links": [
-                    {
-                        "name": "GITHUB",
-                        "icon": "mdi-github",
-                        "url": "https://github.com/jphacks/C_2006"
-                    },
-                    {
-                        "name": "SITE URL",
-                        "icon": "mdi-link",
-                        "url": "https://c-2006.firebaseapp.com/"
-                    }
-                ],
-                "memo": "JPHACKS2020で開発したおうち時間を共有するアプリ。Vue3 × ionicでWeb/mobile(android)アプリとして開発した。"
-            },
-            {
-                "name": "PowerPoint-Karaoke-Web",
-                "techs": [
-                    {
-                        "name": "React",
-                        "icon": "mdi-react"
-                    },
-                    {
-                        "name": "TypeScript",
-                        "icon": "mdi-language-typescript"
-                    }
-                ],
-                "links": [
-                    {
-                        "name": "GITHUB",
-                        "icon": "mdi-github",
-                        "url": "https://github.com/takumma/powerpoint-karaoke-web"
-                    },
-                    {
-                        "name": "SITE URL",
-                        "icon": "mdi-link",
-                        "url": "https://takumma.github.io/powerpoint-karaoke-web/"
-                    }
-                ],
-                "memo": "パワポカラオケができるサイト"
-            }
-        ]
-    },
+    "products": [
+        {
+            "name": "TABINOW",
+            "techs": [
+                {
+                    "name": "kotlin",
+                    "icon": "mdi-language-kotlin"
+                },
+                {
+                    "name": "Android",
+                    "icon": "android"
+                }
+            ],
+            "links": [
+                {
+                    "name": "GITHUB",
+                    "icon": "mdi-github",
+                    "url": "https://github.com/takumma/tabinow"
+                }
+            ],
+            "memo": "旅行計画に沿った天気予報が見られるAndroidアプリ。機械学習により、訪れる場所がその天気に適しているかを表すおすすめ度をみることができる。"
+        },
+        {
+            "name": "mask-game",
+            "techs": [
+                {
+                    "name": "Vue.js",
+                    "icon": "mdi-vuejs"
+                },
+                {
+                    "name": "JavaScript",
+                    "icon": "mdi-language-javascript"
+                }
+            ],
+            "links": [
+                {
+                    "name": "GITHUB",
+                    "icon": "mdi-github",
+                    "url": "https://github.com/takumma/mask-game"
+                }
+            ],
+            "memo": "コロナによる休校期間中につくったマスクをつけて遊ぶブラウザゲーム。"
+        },
+        {
+            "name": "kinku.me",
+            "techs": [
+                {
+                    "name": "Vue.js",
+                    "icon": "mdi-vuejs"
+                },
+                {
+                    "name": "JavaScript",
+                    "icon": "mdi-language-javascript"
+                },
+                {
+                    "name": "Spring Boot",
+                    "icon": "mdi-leaf"
+                }
+            ],
+            "links": [],
+            "memo": "CCCu22で作ったハラスメントに関するWebアプリケーション。初対面の大学生3人と開発をした。"
+        },
+        {
+            "name": "Fulfill",
+            "techs": [
+                {
+                    "name": "Vue.js",
+                    "icon": "mdi-vuejs"
+                },
+                {
+                    "name": "ionic",
+                    "icon": "code"
+                },
+                {
+                    "name": "Typescript",
+                    "icon": "mdi-language-typescript"
+                },
+                {
+                    "name": "firebase",
+                    "icon": "mdi-firebase"
+                }
+            ],
+            "links": [
+                {
+                    "name": "GITHUB",
+                    "icon": "mdi-github",
+                    "url": "https://github.com/jphacks/C_2006"
+                },
+                {
+                    "name": "SITE URL",
+                    "icon": "mdi-link",
+                    "url": "https://c-2006.firebaseapp.com/"
+                }
+            ],
+            "memo": "JPHACKS2020で開発したおうち時間を共有するアプリ。Vue3 × ionicでWeb/mobile(android)アプリとして開発した。"
+        },
+        {
+            "name": "PowerPoint-Karaoke-Web",
+            "techs": [
+                {
+                    "name": "React",
+                    "icon": "mdi-react"
+                },
+                {
+                    "name": "TypeScript",
+                    "icon": "mdi-language-typescript"
+                }
+            ],
+            "links": [
+                {
+                    "name": "GITHUB",
+                    "icon": "mdi-github",
+                    "url": "https://github.com/takumma/powerpoint-karaoke-web"
+                },
+                {
+                    "name": "SITE URL",
+                    "icon": "mdi-link",
+                    "url": "https://takumma.github.io/powerpoint-karaoke-web/"
+                }
+            ],
+            "memo": "パワポカラオケができるサイト"
+        }
+    ],
     "skills": [
         {
             "name": "C++",
@@ -228,7 +230,7 @@
             "time_stamp": "2020/10/31~11/07",
             "memo": "onlineハッカソン。同級生3人と参加して\"Fulfill\"を作った。"
         }
-      ],
+    ],
     "links": [
         {
             "icon": "mdi-github",
