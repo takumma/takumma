@@ -232,12 +232,12 @@
     "links": [
         {
             "icon": "mdi-github",
-            "color": "cyan",
+            "color": "black",
             "url": "https://github.com/takumma"
         },
         {
             "icon": "mdi-twitter",
-            "color": "black",
+            "color": "cyan",
             "url": "https://twitter.com/tak_kum_ma"
         }
     ]

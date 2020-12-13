@@ -1,11 +1,18 @@
 <template>
   <div>
-    <div
-      v-for="link in links"
-      :key="link.icon"
+    <v-row
+      align="center"
+      justify="center"
     >
-      <link-button :link="link"/>
-    </div>
+      <v-col
+        xs="4" sm="2" md="2" lg="1"
+        :cols="links.length"
+        v-for="link in links"
+        :key="link.name"
+      >
+        <link-button :link="link"/>
+      </v-col>
+    </v-row>
   </div>
 </template>
 

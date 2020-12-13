@@ -1,6 +1,5 @@
 <template>
   <v-btn
-      class="mx-2"
       fab
       dark
       :color="link.color"
