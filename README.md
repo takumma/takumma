@@ -1,4 +1,4 @@
-I'm interested in Vue.js, Flutter, firebase, and Security.
+I'm interested in Vue.js and Security.
 
 ![GitHub Stats Card](https://github-readme-stats.vercel.app/api?username=takumma&count_private=true&show_icons=true)
 
