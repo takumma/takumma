@@ -1,8 +1,20 @@
 <template>
-  <v-app-bar app color="hojichaLatte">
-    
-    <v-toolbar-title class="white--text text-h5">takumma</v-toolbar-title>
-
+  <v-app-bar
+    app
+    color="hojichaLatte"
+    class="text-center"
+  >
+    <v-spacer/>
+    <v-toolbar-title class="white--text text-h5">
+      <v-avatar
+        size="36"
+        class="mr-1"
+      >
+        <img src="../assets/logo.svg" alt="logo"/>
+      </v-avatar>
+      takumma
+    </v-toolbar-title>
+    <v-spacer/>
   </v-app-bar>
 </template>
 
