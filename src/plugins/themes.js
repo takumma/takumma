@@ -28,6 +28,36 @@ const events = [
             accent: '#FFBB00',
         }
     },
+    {
+        eventName: "Valentine",
+        timeStamp: '2020-2-14',
+        colors: {
+            hojichaLatte: '#CA3C3C',
+            chocolate: '#664743',
+            softBlack: '#E4D5CC',
+            accent: '#959B63',
+        }
+    },
+    {
+        eventName: "Tanabata",
+        timeStamp: '2020-7-7',
+        colors: {
+            hojichaLatte: '#4D4398',
+            chocolate: '#136EAB',
+            softBlack: '#5D87B7',
+            accent: '#61C1BE',
+        }
+    },
+    {
+        eventName: "NewYear",
+        timeStamp: '2020-1-1',
+        colors: {
+            hojichaLatte: '#F4B600',
+            chocolate: '#DD2720',
+            softBlack: '#A38046',
+            accent: '#2A7135',
+        }
+    },
 ]
 
 
