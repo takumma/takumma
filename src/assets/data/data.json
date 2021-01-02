@@ -241,6 +241,16 @@
             "icon": "mdi-twitter",
             "color": "cyan",
             "url": "https://twitter.com/tak_kum_ma"
+        },
+        {
+            "name": "Qiita",
+            "color": "green",
+            "url": "https://qiita.com/takumma"
+        },
+        {
+            "name": "Zenn",
+            "color": "cyan",
+            "url": "https://zenn.dev/takumma"
         }
     ]
 }

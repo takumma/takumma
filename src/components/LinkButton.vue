@@ -7,10 +7,17 @@
       small
   >
     <v-icon
+      v-if="link.icon"
       dark
     >
       {{ link.icon }}
     </v-icon>
+    <span
+      v-if="link.name"
+      class="btn-text"
+    >
+      {{ link.name.slice(0, 1).toUpperCase()}}
+    </span>
   </v-btn>
 </template>
 
@@ -29,3 +36,10 @@ export default class LinkButton extends Vue {
   readonly link!: Link;
 }
 </script>
+
+<style scoped>
+.btn-text {
+  font-size: 1.4em;
+}
+
+</style>
