@@ -2,16 +2,16 @@
 	<v-hover v-slot:default="{ hover }">
 		<v-card
 			tile
-			height="150"
-			width="150"
+			height="120"
+			width="120"
 			:elevation="hover ? 8 : 2"
 		>
-			<v-card-title class="justify-center text-no-wrap chocolate--text">
+			<v-card-text class="text-no-wrap chocolate--text title-text my-0 font-weight-bold">
 				{{ skill.name }}
-			</v-card-title>
+			</v-card-text>
 			<v-layout class="justify-center">
 				<v-icon
-					size="64"
+					size="48"
 					:color="hover ? skill.color : 'softBlack'"
 				>
 					{{ skill.icon }}
@@ -36,3 +36,9 @@ export default class SkillListCard extends Vue{
 	readonly skill!: Skill;
 }
 </script>
+
+<style scoped>
+.title-text {
+ font-size: 1.0em;
+}
+</style>

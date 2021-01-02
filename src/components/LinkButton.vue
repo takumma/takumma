@@ -4,10 +4,10 @@
       dark
       :color="link.color"
       :href="link.url"
+      small
   >
     <v-icon
       dark
-      x-large
     >
       {{ link.icon }}
     </v-icon>
