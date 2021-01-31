@@ -6,13 +6,13 @@
       <v-timeline-item
         v-for="(activity, i) in activities"
         :key="i"
-        color="chocolate"
+        color="secondary"
         :icon="activity.icon"
         fill-dot
       >
         <template v-if="!$vuetify.breakpoint.xs" v-slot:opposite>
           <span
-            class="chocolate--text text-body-1"
+            class="secondary--text text-body-1"
             v-text="activity.time_stamp"
           ></span>
         </template>

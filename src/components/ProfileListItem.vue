@@ -1,6 +1,6 @@
 <template>
     <v-list-item-content>
-      <v-list-item-title class="wrap-text text-h5 chocolate--text font-weight-bold">
+      <v-list-item-title class="wrap-text text-h5 secondary--text font-weight-bold">
         {{ item.name }}:
       </v-list-item-title>
       <div

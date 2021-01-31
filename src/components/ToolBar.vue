@@ -1,7 +1,7 @@
 <template>
   <v-app-bar
     app
-    color="hojichaLatte"
+    color="primary"
     class="text-center"
   >
     <v-spacer/>

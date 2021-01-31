@@ -6,7 +6,7 @@
 			width="120"
 			:elevation="hover ? 8 : 2"
 		>
-			<v-card-text class="text-no-wrap chocolate--text title-text my-0 font-weight-bold">
+			<v-card-text class="text-no-wrap secondary--text title-text my-0 font-weight-bold">
 				{{ skill.name }}
 			</v-card-text>
 			<v-layout class="justify-center">
