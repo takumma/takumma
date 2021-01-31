@@ -1,6 +1,12 @@
 <template>
   <div class="home text-center mt-12 px-8">
-    
+
+    <event
+      v-if="todaysEvent"
+      :event_name="todaysEvent.eventName"
+      :event_text="todaysEvent.text"
+    />
+
     <title-text title="PROFILES"/>
     <profile
       class="mb-12 mt-4"
@@ -13,7 +19,7 @@
     />
     <title-text title="PRODUCTS"/>
     <product-list
-    class="mb-12 mt-4"
+      class="mb-12 mt-4"
       :products="data.products"
     />
     <title-text title="ACTIVITIES"/>
@@ -30,7 +36,7 @@
 </template>
 
 <script lang='ts'>
-import { Component, Vue } from 'vue-property-decorator';
+import {Component, Vue} from 'vue-property-decorator';
 import TitleText from '../components/TitleText.vue';
 import Profile from '../components/Profile.vue';
 import SkillList from '../components/SkillList.vue';
@@ -38,9 +44,24 @@ import ProductList from '../components/ProductList.vue';
 import Timeline from '../components/Timeline.vue';
 import data from '../assets/data/data.json';
 import LinkButtonToggle from "@/components/LinkButtonToggle.vue";
+import Event from "@/components/Event.vue";
+import {getTodaysEvent} from '@/plugins/themes';
+
+interface Event {
+  eventName: string;
+  text: string;
+  timeStamp: string;
+  colors: {
+    primary: string;
+    secondary: string;
+    softBlack: string;
+    accent: string;
+  };
+}
 
 @Component({
   components: {
+    Event,
     LinkButtonToggle,
     TitleText,
     Profile,
@@ -49,7 +70,8 @@ import LinkButtonToggle from "@/components/LinkButtonToggle.vue";
     Timeline,
   }
 })
-export default class Home extends Vue{
+export default class Home extends Vue {
   data: any = data;
+  todaysEvent: Event | undefined = getTodaysEvent();
 }
 </script>

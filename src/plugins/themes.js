@@ -10,6 +10,7 @@ const defaultTheme = {
 const events = [
     {
         eventName: "Xmas",
+        text: "Merry Christmas!",
         timeStamp: "2020-12-25",
         colors: {
             primary: '#33743B',
@@ -20,6 +21,7 @@ const events = [
     },
     {
         eventName: "Halloween",
+        text: "Trick or Treat?",
         timeStamp: '2020-10-31',
         colors: {
             primary: '#000000',
@@ -30,6 +32,7 @@ const events = [
     },
     {
         eventName: "Valentine",
+        text: "Happy Valentine's Day.",
         timeStamp: '2020-2-14',
         colors: {
             primary: '#CA3C3C',
@@ -40,6 +43,7 @@ const events = [
     },
     {
         eventName: "Tanabata",
+        text: "",
         timeStamp: '2020-7-7',
         colors: {
             primary: '#4D4398',
@@ -50,6 +54,7 @@ const events = [
     },
     {
         eventName: "NewYear",
+        text: "I wish you a Happy New Year!",
         timeStamp: '2020-1-1',
         colors: {
             primary: '#F4B600',
@@ -60,16 +65,20 @@ const events = [
     },
 ]
 
-
-export function getThemeByEvent() {
+export function getTodaysEvent() {
     const today = new Date();
-    const todaysEvent = events.find((event) => {
+    return events.find((event) => {
         const eventDay = new Date(event.timeStamp);
         return eventDay.getMonth() === today.getMonth()
-            && eventDay.getDate() === today.getDate();
+          && eventDay.getDate() === today.getDate();
     });
+}
+
+export function getThemeByEvent() {
+    const todaysEvent = getTodaysEvent();
     if(todaysEvent) {
         return todaysEvent.colors;
     }
     return defaultTheme;
 }
+
