@@ -1,5 +1,4 @@
 I'm interested in Vue.js and Security.
 
-![GitHub Stats Card](https://github-readme-stats.vercel.app/api?username=takumma&count_private=true&show_icons=true)
-
-![Top Languages Card (Compact layout)](https://github-readme-stats.vercel.app/api/top-langs/?username=takumma&layout=compact)
+[![](https://raw.githubusercontent.com/takumma/profile-summary-cards/main/profile-summary-card-output/vue/0-profile-details.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+[![](https://raw.githubusercontent.com/takumma/profile-summary-cards/main/profile-summary-card-output/vue/1-repos-per-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/takumma/profile-summary-cards/main/profile-summary-card-output/vue/2-most-commit-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
