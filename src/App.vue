@@ -11,6 +11,8 @@
 import { Component, Vue } from 'vue-property-decorator';
 import 'normalize.css';
 import ToolBar from './components/ToolBar.vue';
+import "@/assets/icomoon/style.css";
+
 
 @Component({
   components: {

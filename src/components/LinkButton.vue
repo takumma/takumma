@@ -6,13 +6,16 @@
     :href="link.url"
     small
   >
-    <v-icon-icomoon :icon="link.icon"/>
+    <v-icon
+      dark
+    >
+      {{ link.icon }}
+    </v-icon>
   </v-btn>
 </template>
 
 <script lang="ts">
 import {Component, Prop, Vue} from 'vue-property-decorator';
-import VIconIcomoon from "@/components/VIconIcomoon.vue";
 
 interface Link {
   icon: string;
@@ -20,18 +23,9 @@ interface Link {
   url: string;
 }
 
-@Component({
-  components: {VIconIcomoon}
-})
+@Component
 export default class LinkButton extends Vue {
   @Prop()
   readonly link!: Link;
 }
 </script>
-
-<style scoped>
-.btn-text {
-  font-size: 1.4em;
-}
-
-</style>

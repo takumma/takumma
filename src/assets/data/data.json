@@ -32,7 +32,7 @@
                 "Rock Music",
                 "Vue.js",
                 "Flutter",
-                "Secity"
+                "Security"
             ]
         }
     ],
@@ -107,7 +107,7 @@
                 },
                 {
                     "name": "ionic",
-                    "icon": "code"
+                    "icon": "icon-ionic"
                 },
                 {
                     "name": "Typescript",
@@ -157,6 +157,37 @@
                 }
             ],
             "memo": "パワポカラオケができるサイト"
+        },
+        {
+            "name": "Flutter Beginners Hands-on",
+            "techs": [
+                {
+                    "name": "Flutter",
+                    "icon": "icon-flutter"
+                },
+                {
+                    "name": "Dart",
+                    "icon": "icon-dart"
+                }
+            ],
+            "links": [
+                {
+                    "name": "GITHUB",
+                    "icon": "mdi-github",
+                    "url": "https://github.com/takumma/flutter_hands_on_sample"
+                },
+                {
+                    "name": "demo",
+                    "icon": "mdi-link",
+                    "url": "https://takumma.github.io/flutter_hands_on_sample/"
+                },
+                {
+                    "name": "Zenn book",
+                    "icon": "mdi-book-open-variant",
+                    "url": "https://zenn.dev/takumma/books/flutter-beginners-hands-on"
+                }
+            ],
+            "memo": "Flutterをハンズオン形式で入門できる本を執筆し、Zennで公開。部内向けに開催したFlutterハンズオンセミナーの資料にも使用した。"
         }
     ],
     "skills": [
@@ -177,7 +208,7 @@
         },
         {
             "name": "Dart",
-            "icon": "code",
+            "icon": "icon-dart",
             "color": "blue"
         },
         {
@@ -197,7 +228,7 @@
         },
         {
             "name": "Flutter",
-            "icon": "code",
+            "icon": "icon-flutter",
             "color": "cyan"
         },
         {
@@ -219,16 +250,28 @@
             "memo": "会津大学主催のAndroidアプリコンテスト。友達2人と3人で出場し、Androidアプリ\"TABINOW\"を開発した。"
         },
         {
-            "title": "CCCu22参加",
+            "title": "CCCu22",
             "icon": "code",
             "time_stamp": "2020/9",
             "memo": "Code for Japan主催のHackathon。ここで知り合った大学生3人と組んで4人で\"kinku.me\"を開発した。"
         },
         {
-            "title": "JPHACKS2020参加",
+            "title": "JPHACKS2020",
             "icon": "code",
             "time_stamp": "2020/10/31~11/07",
-            "memo": "onlineハッカソン。同級生3人と参加して\"Fulfill\"を作った。"
+            "memo": "1週間のオンラインハッカソン。同級生と3人で参加して\"Fulfill\"を開発した。"
+        },
+        {
+            "title": "jig.jpインターン",
+            "icon": "code",
+            "time_stamp": "2021/2/25,26",
+            "memo": "jig.jpの2日間のハッカソン型インターンに参加した。"
+        },
+        {
+            "title": "Flutterハンズオンセミナー開催",
+            "icon": "icon-flutter",
+            "time_stamp": "2021/2/27",
+            "memo": "部内向けにFlutterのハンズオンセミナーを開催した。ハンズオンの資料には自分が執筆したZennの本を使用した。"
         }
     ],
     "links": [
