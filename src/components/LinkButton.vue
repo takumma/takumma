@@ -1,28 +1,18 @@
 <template>
   <v-btn
-      fab
-      dark
-      :color="link.color"
-      :href="link.url"
-      small
+    fab
+    dark
+    :color="link.color"
+    :href="link.url"
+    small
   >
-    <v-icon
-      v-if="link.icon"
-      dark
-    >
-      {{ link.icon }}
-    </v-icon>
-    <span
-      v-if="link.name"
-      class="btn-text"
-    >
-      {{ link.name.slice(0, 1).toUpperCase()}}
-    </span>
+    <v-icon-icomoon :icon="link.icon"/>
   </v-btn>
 </template>
 
 <script lang="ts">
 import {Component, Prop, Vue} from 'vue-property-decorator';
+import VIconIcomoon from "@/components/VIconIcomoon.vue";
 
 interface Link {
   icon: string;
@@ -30,7 +20,9 @@ interface Link {
   url: string;
 }
 
-@Component
+@Component({
+  components: {VIconIcomoon}
+})
 export default class LinkButton extends Vue {
   @Prop()
   readonly link!: Link;
