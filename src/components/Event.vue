@@ -9,7 +9,7 @@
 import {Component, Prop, Vue} from 'vue-property-decorator';
 
 @Component
-export default class Event extends Vue {
+export default class EventText extends Vue {
   @Prop()
   readonly event_name!: string;
   @Prop()

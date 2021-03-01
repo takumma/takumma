@@ -2,9 +2,8 @@
   <v-app-bar
     app
     color="primary"
-    class="text-center"
+    class="text-center px-3"
   >
-    <v-spacer/>
     <v-toolbar-title class="white--text text-h5">
       <v-avatar
         size="36"
@@ -15,13 +14,14 @@
       takumma
     </v-toolbar-title>
     <v-spacer/>
+    <v-app-bar-nav-icon class="white--text" />
   </v-app-bar>
 </template>
 
 <script lang='ts'>
-import { Component, Vue } from 'vue-property-decorator';
+import {Component, Vue} from 'vue-property-decorator';
 
 @Component
-export default class ToolBar extends Vue{
+export default class ToolBar extends Vue {
 }
 </script>

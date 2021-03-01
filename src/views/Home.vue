@@ -7,7 +7,7 @@
       :event_text="todaysEvent.text"
     />
 
-    <title-text title="PROFILES"/>
+    <title-text title="PROFILES" id="profiles"/>
     <profile
       class="mb-12 mt-4"
       :profiles="data.profiles"
@@ -44,7 +44,7 @@ import ProductList from '../components/ProductList.vue';
 import Timeline from '../components/Timeline.vue';
 import data from '../assets/data/data.json';
 import LinkButtonToggle from "@/components/LinkButtonToggle.vue";
-import Event from "@/components/Event.vue";
+import EventText from "@/components/Event.vue";
 import {getTodaysEvent} from '@/plugins/themes';
 
 interface Event {
@@ -61,7 +61,7 @@ interface Event {
 
 @Component({
   components: {
-    Event,
+    Event: EventText,
     LinkButtonToggle,
     TitleText,
     Profile,
