@@ -12,22 +12,22 @@
       class="mb-12 mt-4"
       :profiles="data.profiles"
     />
-    <title-text title="SKILLS"/>
+    <title-text title="SKILLS" id="skills"/>
     <skill-list
       class="mb-12 mt-4"
       :skills="data.skills"
     />
-    <title-text title="PRODUCTS"/>
+    <title-text title="PRODUCTS" id="products"/>
     <product-list
       class="mb-12 mt-4"
       :products="data.products"
     />
-    <title-text title="ACTIVITIES"/>
+    <title-text title="ACTIVITIES" id="activities"/>
     <timeline
       class="mb-12 mt-4"
       :activities="data.activities"
     />
-    <title-text title="LINKS"/>
+    <title-text title="LINKS" id="links"/>
     <link-button-toggle
       class="mb-12 mt-4"
       :links="data.links"
