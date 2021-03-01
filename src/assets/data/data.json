@@ -194,52 +194,52 @@
         {
             "name": "C++",
             "icon": "mdi-language-cpp",
-            "color": "blue"
+            "color": "#00599C"
         },
         {
             "name": "JavaScript",
             "icon": "mdi-language-javascript",
-            "color": "yellow"
+            "color": "#F7DF1E"
         },
         {
             "name": "Kotlin",
             "icon": "mdi-language-kotlin",
-            "color": "purple"
+            "color": "#0095D5"
         },
         {
             "name": "Dart",
             "icon": "icon-dart",
-            "color": "blue"
+            "color": "#0175C2"
         },
         {
             "name": "Typescript",
             "icon": "mdi-language-typescript",
-            "color": "black"
+            "color": "#3178C6"
         },
         {
             "name": "Python",
             "icon": "mdi-language-python",
-            "color": "blue"
+            "color": "#3776AB"
         },
         {
             "name": "Vue.js",
             "icon": "mdi-vuejs",
-            "color": "green"
+            "color": "#4FC08D"
         },
         {
             "name": "Flutter",
             "icon": "icon-flutter",
-            "color": "cyan"
+            "color": "#02569B"
         },
         {
             "name": "Android",
             "icon": "android",
-            "color": "green"
+            "color": "#3DDC84"
         },
         {
             "name": "Git(Github)",
             "icon": "mdi-github",
-            "color": "black"
+            "color": "#181717"
         }
     ],
     "activities": [
