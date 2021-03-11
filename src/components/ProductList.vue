@@ -1,16 +1,14 @@
 <template>
-	<div class="product-list">
-		<v-list class="align-center justify-center">
-			<v-list-item
-				:cols="products.length"
-				v-for="product in products"
-				:key="product.name"
-				class="pa-3 justify-center"
-			>
-				<product-list-card :product="product"/>
-			</v-list-item>
-		</v-list>
-	</div>
+	<v-list class="product-list align-center justify-center">
+		<v-list-item
+			:cols="products.length"
+			v-for="product in products"
+			:key="product.name"
+			class="pa-3 justify-center"
+		>
+			<product-list-card :product="product"/>
+		</v-list-item>
+	</v-list>
 </template>
 
 <script lang='ts'>
@@ -47,3 +45,9 @@ export default class SkillList extends Vue{
 	products!: Array<Product>;
 }
 </script>
+
+<style scoped>
+.product-list {
+  background-color: #eae2d7;
+}
+</style>

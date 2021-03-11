@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-list>
+    <v-list class="profile-list">
       <v-list-item
         v-for="item in profiles"
         :key="item.name"
@@ -30,3 +30,9 @@ export default class Profile extends Vue{
   readonly profiles!: Array<ProfileItem>
 }
 </script>
+
+<style scoped>
+.profile-list {
+  background-color: #eae2d7;
+}
+</style>

@@ -1,9 +1,9 @@
 import { colors } from 'vuetify/lib';
 
-const defaultTheme = {
+export const defaultTheme = {
     primary: '#C4A169',
     secondary: '#583819',
-    softBlack: '#555555',
+    softBlack: '#282828',
     accent: colors.cyan.accent1,
 }
 

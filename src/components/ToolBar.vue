@@ -1,7 +1,7 @@
 <template>
   <v-app-bar
     app
-    color="primary"
+    color="secondary"
     class="text-center px-3"
   >
     <v-toolbar-title class="white--text text-h5">
