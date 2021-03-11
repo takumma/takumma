@@ -1,12 +1,6 @@
 <template>
   <div class="home text-center mt-12 px-8">
 
-    <event
-      v-if="todaysEvent"
-      :event_name="todaysEvent.eventName"
-      :event_text="todaysEvent.text"
-    />
-
     <title-text title="PROFILES" id="profiles"/>
     <profile
       class="mb-12 mt-4"
@@ -44,24 +38,9 @@ import ProductList from '../components/ProductList.vue';
 import Timeline from '../components/Timeline.vue';
 import data from '../assets/data/data.json';
 import LinkButtonToggle from "@/components/LinkButtonToggle.vue";
-import EventText from "@/components/Event.vue";
-import {getTodaysEvent} from '@/plugins/themes';
-
-interface Event {
-  eventName: string;
-  text: string;
-  timeStamp: string;
-  colors: {
-    primary: string;
-    secondary: string;
-    softBlack: string;
-    accent: string;
-  };
-}
 
 @Component({
   components: {
-    Event: EventText,
     LinkButtonToggle,
     TitleText,
     Profile,
@@ -72,6 +51,5 @@ interface Event {
 })
 export default class Home extends Vue {
   data: any = data;
-  todaysEvent: Event | undefined = getTodaysEvent();
 }
 </script>
