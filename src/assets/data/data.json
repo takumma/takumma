@@ -188,6 +188,60 @@
                 }
             ],
             "memo": "Flutterをハンズオン形式で入門できる本を執筆し、Zennで公開。部内向けに開催したFlutterハンズオンセミナーの資料にも使用した。"
+        },
+        {
+            "name": "Liverary",
+            "techs": [
+                {
+                    "name": "Vue.js",
+                    "icon": "mdi-vuejs"
+                },
+                {
+                    "name": "ionic",
+                    "icon": "icon-ionic"
+                },
+                {
+                    "name": "Typescript",
+                    "icon": "mdi-language-typescript"
+                },
+                {
+                    "name": "firebase",
+                    "icon": "mdi-firebase"
+                }
+            ],
+            "links": [
+                {
+                    "name": "link",
+                    "icon": "mdi-link",
+                    "url": "https://liverary.takumma.net"
+                }
+            ],
+            "memo": "子供の語彙の成長を可視化できるアプリ。HackUで同級生4人と開発"
+        },
+        {
+            "name": "takumma's blog",
+            "techs": [
+                {
+                    "name": "Vue.js",
+                    "icon": "mdi-vuejs"
+                },
+                {
+                    "name": "Nuxt.js",
+                    "icon": "mdi-nuxt"
+                },
+                {
+                    "name": "Typescript",
+                    "icon": "mdi-language-typescript"
+                }
+            ],
+            "links": [
+                {
+                    "name": "link",
+                    "icon": "mdi-link",
+                    "url": "https://blog.takumma.net/"
+                }
+            ],
+            "memo": "個人ブログ"
         }
     ],
     "skills": [
@@ -225,6 +279,11 @@
             "name": "Vue.js",
             "icon": "mdi-vuejs",
             "color": "#4FC08D"
+        },
+        {
+            "name": "Ionic",
+            "icon": "icon-ionic",
+            "color": "#3178C6"
         },
         {
             "name": "Flutter",
@@ -272,6 +331,12 @@
             "icon": "icon-flutter",
             "time_stamp": "2021/2/27",
             "memo": "部内向けにFlutterのハンズオンセミナーを開催した。ハンズオンの資料には自分が執筆したZennの本を使用した。"
+        },
+        {
+            "title": "OPEN HackU2020",
+            "icon": "code",
+            "time_stamp": "2021/3/27",
+            "memo": "ヤフー主催のHackUに同級生4人と参加。子供の語彙の成長を可視化できるアプリ「Liverary」を開発。"
         }
     ],
     "links": [
