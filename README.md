@@ -9,7 +9,7 @@
   <a href="https://blog.takumma.net/">Blog</a> | 
   <a href="https://qiita.com/takumma">Qiita</a> | 
   <a href="https://zenn.dev/takumma">Zenn</a> | 
-  <a href="https://twitter.com/_takumma">Twitter</a>
+  <a href="https://twitter.com/_takumma">Twitter</a> | 
   <a href="https://www.wantedly.com/id/takumma">Wantedly</a>
   
   
