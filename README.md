@@ -10,6 +10,8 @@
   <a href="https://qiita.com/takumma">Qiita</a> | 
   <a href="https://zenn.dev/takumma">Zenn</a> | 
   <a href="https://twitter.com/_takumma">Twitter</a>
+  <a href="https://www.wantedly.com/id/takumma">Wantedly</a>
+  
   
   <br/>
   
@@ -21,4 +23,5 @@
   <img src="https://raw.githubusercontent.com/takumma/profile-summary-cards/main/profile-summary-card-output/vue/0-profile-details.svg" />
   <img src="https://raw.githubusercontent.com/takumma/profile-summary-cards/main/profile-summary-card-output/vue/1-repos-per-language.svg" />
   <img src="https://raw.githubusercontent.com/takumma/profile-summary-cards/main/profile-summary-card-output/vue/2-most-commit-language.svg" />
+
 </div>
